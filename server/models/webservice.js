@@ -4,13 +4,11 @@ var http = require('http'),
     iconv = require('iconv-lite'),
     xml2js = require('xml2js');
 
-function WebService(){
-	this.http = http;
-}
+module.exports = service;
 
-module.exports = WebService;
+var service = {};
 
-WebService.prototype.get = function (params, callback){
+service.get = function (params, callback){
 	this.http.get(params, function (res){
 	  console.log('STATUS: ' + res.statusCode);
   	var buffer = new BufferHelper();

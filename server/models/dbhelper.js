@@ -1,5 +1,5 @@
 var mongoose = require('mongoose'),
-  settings = require('../settings');
+  	settings = require('../settings');
   
 var Schema = mongoose.Schema;
 var db = mongoose.createConnection(settings.host, settings.db);
