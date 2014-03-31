@@ -10,13 +10,13 @@ var path = require('path');
 var MongoStore = require('connect-mongo')(express),
     settings = require('./settings'),
     flash = require('connect-flash'),
-    News = require('./models/news.js');
+    News = require('./models/rsssite.js');
 
 
 var app = express();
 
 // all environments
-app.set('port', process.argv[2] || 80);
+app.set('port', process.argv[2] || 8000);
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
 app.use(express.favicon()); // icon (__dirname + '/public/image/XXXX.ico')
@@ -55,9 +55,13 @@ if ('development' == app.get('env')) {
 // app.get('/', routes.index);
 // app.get('/users', user.list);
 // 
-//routes(app);
-var test = new News({host:"http://voice.hupu.com/generated/voice/news_nba.xml",name:"hupu"});
-test.getNews();
-// http.createServer(app).listen(app.get('port'), function(){
-//   console.log('Express server listening on port ' + app.get('port'));
+routes(app);
+// var test = new News({host:"http://voice.hupu.com/generated/voice/news_nba.xml",name:"hupu"});
+// debugger;
+// test.save(function (err, data) {
+// 	console.log(err);
 // });
+// test.requestNews();
+http.createServer(app).listen(app.get('port'), function(){
+  console.log('Express server listening on port ' + app.get('port'));
+});
