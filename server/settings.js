@@ -1,5 +1,5 @@
 module.exports = {
   cookieSecret: 'rssRead',
-  db: 'db',
+  db: 'rss',
   host: 'localhost'
 };
