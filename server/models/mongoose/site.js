@@ -13,10 +13,10 @@ var siteSchema = new mongoose.Schema({
   description: String,
   url: String,
   link: String,
-  last_build_date: Date,
-  create_data: {type: Date, default: Date.now},
-  last_modified: {type: Date, default: Date.now},
-  favor_number: {type: Number, default: 0}
+  lastBuildDate: Date,
+  createDate: {type: Date, default: Date.now},
+  lastModified: {type: Date, default: Date.now},
+  favorNumber: {type: Number, default: 0}
 });
 
 var Site = mongoose.model('Site', siteSchema);

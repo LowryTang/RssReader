@@ -6,8 +6,8 @@ var newsSchema = new Schema({
   title: String,
   description: String,
   link: String,
-  pub_date: Date,
-  site_id: ObjectId
+  pubDate: Date,
+  siteId: ObjectId
 });
 
 var News = mongoose.model('News', newsSchema);
@@ -19,15 +19,13 @@ NewsDAO.prototype.newAndSave = function(obj, callback) {
   news.title = obj.title;
   news.description = obj.description;
   news.link = obj.link;
-  news.pub_date = obj.pubDate;
-  news.site_id = obj.siteId;
+  news.pubDate = obj.pubDate;
+  news.siteId = obj.siteId;
   news.save(callback);
 };
 
 NewsDAO.prototype.findNewsBySiteId = function(siteId, page, size, callback) {
-  News.find({site_id: siteId}, null, {sort: {'pub_date': 'desc'}}, function (err, news) {
-    callback(err, news);
-  })
+  News.find({siteId: siteId}).sort('-pubDate').limit(size).skip(page * size).exec(callback);
 };
 
 module.exports = new NewsDAO();

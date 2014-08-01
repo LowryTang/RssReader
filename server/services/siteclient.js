@@ -4,27 +4,6 @@ var http = require('http'),
   iconv = require('iconv-lite'),
   parser = require('xml2js').Parser();
 
-// service.get = function (params, callback) {
-//   http.get(params, function (res) {
-//     console.log('STATUS: ' + res.statusCode);
-//     var buffer = new BufferHelper();
-//     res.on('data', function (chunk) {
-//       buffer.add(chunk);
-//     }).on('end', function () {
-//       var temp = Buffer.concat(buffer.buffers.slice(0, 1)).toString();
-//       var charset = temp.match(/encoding="(.*?)"/)[1];
-//       var buf = buffer.toBuffer();
-//       var str = iconv.decode(buf, charset);
-//       parser.parseString(str, function (err, data) {
-//         callback(null, data);
-//       });
-//     });
-//   }).on('error', function (e) {
-//     callback(e)
-//     console.log(e.message);
-//   });
-// }
-// 
 function sendRequest(site, callback) {
   http.get(site.url, function (res) {
     console.log('getSiteInfo status code : ', res.statusCode);
@@ -60,7 +39,7 @@ module.exports.getSiteInfo = function (site, callback) {
     site.title = data.rss.channel[0].title[0];
     site.description = data.rss.channel[0].description[0];
     site.link = data.rss.channel[0].link[0];
-    site.last_build_date = new Date(data.rss.channel[0].lastBuildDate[0]);
+    site.lastBuildDate = new Date(data.rss.channel[0].lastBuildDate[0]);
     callback(null, site);
   })
 };
@@ -69,6 +48,7 @@ module.exports.getSiteNews = function (site, callback) {
   sendRequest(site, function (err, data) {
     if (err) return callback(err);
     var items = data.rss.channel[0].item;
+    var lastBuildDate = data.rss.channel[0].lastBuildDate[0];
     var results = [];
     for (var i = 0; i < items.length; i++) {
       var temp = {};
@@ -79,6 +59,6 @@ module.exports.getSiteNews = function (site, callback) {
       temp.siteId = site._id;
       results.push(temp);
     };
-    callback(null, results);
+    callback(null, results, lastBuildDate);
   })
 }

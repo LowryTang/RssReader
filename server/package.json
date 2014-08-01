@@ -13,6 +13,7 @@
     "iconv-lite": "*",
     "xml2js": "*",
     "mongoose": "3.8.*",
-    "log4js": "*"
+    "log4js": "*",
+    "async": "*"
   }
 }

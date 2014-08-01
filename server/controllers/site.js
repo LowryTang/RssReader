@@ -3,14 +3,12 @@ var siteclient = require('../services/siteclient.js');
 
 module.exports.add = function (req, res, next) {
   var url = req.body.url
-  console.log(url);
   Site.getByUrl(url, function (err, site) {
     if (err) {
       console.log(err);
       return next(err);
     }
     if (site.length > 0) {
-      console.log('Already have this site.');
       res.send({status: 'failed', message: 'Already have this site.'});
     } else {
       var site = {};
