@@ -28,7 +28,7 @@ module.exports.add = function (req, res, next) {
 }
 
 module.exports.getById = function (req, res, next) {
-  // body...
+  var id = req.body.id;
 }
 
 module.exports.getAll = function (req, res, next) {

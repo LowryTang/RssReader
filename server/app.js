@@ -1,60 +1,55 @@
-/**
- * Module dependencies.
- */
-
 var express = require('express');
-var routes = require('./routes');
-var http = require('http');
 var path = require('path');
-/*MongoStore = require('connect-mongo')(express),*/
-var settings = require('./settings'),
-  flash = require('connect-flash');
-// News = require('./models/rsssite.js');
+var cookieParser = require('cookie-parser');
+var bodyParser = require('body-parser');
+var favicon = require('static-favicon');
+var logger = require('morgan');
+var session = require('express-session');
+var flash = require('connect-flash');
+var http = require('http');
 
+var debug = require('debug')('rss');
+
+var routes = require('./routes');
+var settings = require('./settings');
 
 var app = express();
 
 // all environments
-app.set('port', process.argv[2] || 8000);
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
-app.use(express.favicon()); // icon (__dirname + '/public/image/XXXX.ico')
-app.use(express.logger('dev')); // console log
-
-/**
- * use app.use(express.bodyParser());
- * like use :
- * app.use(express.json());
- * app.use(express.urlencoded());
- * app.use(express.multipart());
- */
-app.use(express.json());
-app.use(express.urlencoded());
 
 //help function, deal with put, delete and other http method
-app.use(express.methodOverride());
+// app.use(express.methodOverride());
+app.use(favicon());
+app.use(logger('dev'));
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({ extended: true }));
+app.use(cookieParser()); // cookie 解析中间件
 
-app.use(express.cookieParser()); // cookie 解析中间件
-app.use(express.session({
-  secret: settings.cookieSecret, //防止窜改cookie 名字
-  key: settings.db, //cookie name
-  cookie: {
-    maxAge: 1000 * 60 * 60 * 24 * 30
-  } //30 days
-  // store: new MongoStore({db: settings.db})
-}));
-app.use(flash());
+// app.use(session({
+//   secret: settings.cookieSecret, //防止窜改cookie 名字
+//   key: settings.db, //cookie name
+//   cookie: {
+//     maxAge: 1000 * 60 * 60 * 24 * 30
+//   } //30 days
+//   // store: new MongoStore({db: settings.db})
+// }));
+// app.use(flash());
 
-app.use(app.router);
 app.use(express.static(path.join(__dirname, 'public')));
+
+// app.use(express.Router());
+// app.use(express.static(path.join(__dirname, 'public')));
 
 // development only
 if ('development' == app.get('env')) {
-  app.use(express.errorHandler());
+  // app.use(express.errorHandler());
 }
 
 routes(app);
 
-http.createServer(app).listen(app.get('port'), function () {
-  console.log('Express server listening on port ' + app.get('port'));
+app.set('port', process.argv[2] || 8000);
+var server = app.listen(app.get('port'), function() {
+  debug('Express server listening on port ' + server.address().port);
 });
