@@ -1,0 +1,46 @@
+{
+  "name": "rssreader",
+  "version": "0.0.0",
+  "homepage": "https://github.com/LowryTang/RssReader",
+  "description": "rss reader via angular",
+  "moduleType": [
+    "node"
+  ],
+  "keywords": [
+    "rss"
+  ],
+  "authors": [
+    "lowry"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.2.21",
+    "angular-route": "~1.2.7",
+    "angular-resource": "~1.2.7",
+    "angular-sanitize": "~1.2.7",
+    "angular-translate": "~2.1.0",
+    "angular-bootstrap": "~0.10.0",
+    "angular-webstorage": "~0.10.3",
+    "angular-xeditable": "~0.1.8",
+    "angular-underscore": "*",
+    "angular-checklist-model": "~0.1.3",
+    "angular-block-ui": "~0.0.4",
+    "async": "~0.2.5",
+    "underscore": "~1.5.2",
+    "json3": "~3.2.6",
+    "bootstrap": "~3.0.2",
+    "hello": "~0.2.10",
+    "uri.js": "~1.12.1",
+    "cryptojslib": "~3.1.2",
+    "jquery": "*",
+    "angular-deckgrid": "~0.4.4",
+    "ngInfiniteScroll": "~1.1.2"
+  }
+}
