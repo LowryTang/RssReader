@@ -5,5 +5,5 @@ function Utilities() {
 }
 
 Utilities.now = function (argument) {
-    return new Date().getTime();
+    return Date.now();
 }

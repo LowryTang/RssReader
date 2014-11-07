@@ -5,25 +5,87 @@ body {
   background: url(../img/bg.gif) 0 0 repeat;
 }
 .deckgrid[deckgrid]::before {
-    /* Specifies that the grid should have a maximum of 4 columns. Each column will have the classes 'column' and 'column-1-4' */
-    content: '3 .column.column-1-3';
-    font-size: 0; /* See https://github.com/akoenig/angular-deckgrid/issues/14#issuecomment-35728861 */
-    visibility: hidden;
+  /* Specifies that the grid should have a maximum of 4 columns. Each column will have the classes 'column' and 'column-1-4' */
+  
+  content: '3 .column.column-1-3';
+  font-size: 0;
+  /* See https://github.com/akoenig/angular-deckgrid/issues/14#issuecomment-35728861 */
+  
+  visibility: hidden;
 }
-
 .deckgrid .column {
-    float: left;
+  float: left;
 }
-
 .deckgrid .column-1-3 {
-    width: 33%;
+  width: 33%;
 }
-@media screen and (max-width: 480px){
-    .deckgrid[deckgrid]::before {
-        content: '1 .column.column-1-1';
-    }
+@media screen and (max-width: 480px) {
+  .deckgrid[deckgrid]::before {
+    content: '1 .column.column-1-1';
+  }
+  .deckgrid .column-1-1 {
+    width: 100%;
+  }
+}
+.news-container {
+  position: relative;
+}
+.news-card {
+  word-wrap: break-word;
+  box-shadow: 0 3px 15px rgba(34, 25, 25, 0.4);
+  background: #fff;
+  margin: 8px;
+  padding: 5px;
+  border-radius: 5px;
+}
+.news-card .title {} .news-card .description {
+  /*height: 300px;*/
+  
+  text-overflow: ellipsis;
+  overflow: hidden;
+  /*white-space: nowrap;*/
+  /*width: 300px;*/
+}
+.news-card .pub-date {} .news-card img {
+  max-width: 300px;
+}
+.dock {
+  position: fixed;
+  width: 30px;
+  left: 0;
+  height: 100%;
+  transition: width 1s;
+  overflow: hidden;
+  -webkit-box-shadow: 10px 0 10px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 10px 0 10px 0 rgba(0, 0, 0, 0.1);
+  background: url(../img/bg.gif) 0 0 repeat;
+}
+.dock.display {
+  width: 300px;
+  transition: width .8s;
+}
+.dock .dock-wrap {
+  position: absolute;
+  width: 300px;
+  overflow: hidden;
+  text-align: center;
+  right: 0px;
+}
 
-    .deckgrid .column-1-1 {
-        width: 100%;
-    }
+.dock .dock-bar {
+  width: 30px;
+  height: 100%;
+  position: absolute;
+  right: 0;
+}
+.dock .dock-bar .wrap {
+  height: 50px;
+  background-color: white;
+  top: 50%;
+  transform: translateY(-50%);
+  position: relative;
+}
+.dock .dock-bar .wrap > span{
+  top: 17px;
+  left: 8px;
 }

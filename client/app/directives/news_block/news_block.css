@@ -2,7 +2,7 @@
   position: relative;
 }
 
-.news-block {
+.news-card {
   /*width: 30%;*/
   margin: 2px;
   word-wrap: break-word;
@@ -12,16 +12,16 @@
   border-radius: 5px;
   /*position: absolute;*/
 }
-.news-block .title {
+.news-card .title {
 
 }
-.news-block .description {
+.news-card .description {
   /*height: 300px;*/
   text-overflow: ellipsis;
   overflow: hidden;
   /*white-space: nowrap;*/
   /*width: 300px;*/
 }
-.news-block .pub-date {
+.news-card .pub-date {
   
 }

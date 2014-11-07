@@ -1,0 +1,2050 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', '-g', 'bower' ]
+2 info using npm@1.5.0-alpha-1
+3 info using node@v0.10.26
+4 verbose cache add [ 'bower', null ]
+5 verbose cache add spec="bower" args=["bower",null]
+6 verbose parsed spec { raw: 'bower',
+6 verbose parsed spec   scope: null,
+6 verbose parsed spec   name: 'bower',
+6 verbose parsed spec   rawSpec: '',
+6 verbose parsed spec   spec: '*',
+6 verbose parsed spec   type: 'range' }
+7 verbose addNamed [ 'bower', '*' ]
+8 verbose addNamed [ null, '*' ]
+9 silly lockFile b788227f-bower bower@*
+10 verbose lock bower@* /Users/Lowry/.npm/b788227f-bower.lock
+11 silly addNameRange { name: 'bower', range: '*', hasData: false }
+12 verbose mapToRegistry name bower
+13 verbose mapToRegistry uri https://registry.npmjs.org/bower
+14 verbose request where is /bower
+15 verbose request registry https://registry.npmjs.org/
+16 verbose request id 0a6c6b81329aaedc
+17 verbose request url raw /bower
+18 verbose request url resolving [ 'https://registry.npmjs.org/', './bower' ]
+19 verbose request url resolved https://registry.npmjs.org/bower
+20 verbose request where is https://registry.npmjs.org/bower
+21 verbose request no basic auth needed
+22 info trying registry request attempt 1 at 11:26:24
+23 verbose etag "CEMR1HQYCLE8N4O2HHP7EN0EZ"
+24 http GET https://registry.npmjs.org/bower
+25 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+26 info trying registry request attempt 2 at 11:27:49
+27 verbose etag "CEMR1HQYCLE8N4O2HHP7EN0EZ"
+28 http GET https://registry.npmjs.org/bower
+29 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+30 info trying registry request attempt 3 at 11:30:05
+31 verbose etag "CEMR1HQYCLE8N4O2HHP7EN0EZ"
+32 http GET https://registry.npmjs.org/bower
+33 silly registry.get cb [ 304, undefined ]
+34 verbose etag https://registry.npmjs.org/bower from cache
+35 silly addNameRange number 2 { name: 'bower', range: '*', hasData: true }
+36 silly addNameRange versions [ 'bower',
+36 silly addNameRange   [ '0.1.0',
+36 silly addNameRange     '0.1.2',
+36 silly addNameRange     '0.1.3',
+36 silly addNameRange     '0.2.0',
+36 silly addNameRange     '0.3.0',
+36 silly addNameRange     '0.3.1',
+36 silly addNameRange     '0.3.2',
+36 silly addNameRange     '0.4.0',
+36 silly addNameRange     '0.5.0',
+36 silly addNameRange     '0.5.1',
+36 silly addNameRange     '0.6.0',
+36 silly addNameRange     '0.6.1',
+36 silly addNameRange     '0.6.2',
+36 silly addNameRange     '0.6.3',
+36 silly addNameRange     '0.6.4',
+36 silly addNameRange     '0.6.5',
+36 silly addNameRange     '0.6.6',
+36 silly addNameRange     '0.6.7',
+36 silly addNameRange     '0.6.8',
+36 silly addNameRange     '0.7.0',
+36 silly addNameRange     '0.7.1',
+36 silly addNameRange     '0.8.0',
+36 silly addNameRange     '0.8.1',
+36 silly addNameRange     '0.8.2',
+36 silly addNameRange     '0.8.3',
+36 silly addNameRange     '0.8.4',
+36 silly addNameRange     '0.8.5',
+36 silly addNameRange     '0.8.6',
+36 silly addNameRange     '0.9.0',
+36 silly addNameRange     '0.9.1',
+36 silly addNameRange     '0.9.2',
+36 silly addNameRange     '0.10.0',
+36 silly addNameRange     '1.0.0',
+36 silly addNameRange     '1.0.1',
+36 silly addNameRange     '1.0.2',
+36 silly addNameRange     '1.0.3',
+36 silly addNameRange     '1.1.0',
+36 silly addNameRange     '1.1.1',
+36 silly addNameRange     '1.1.2',
+36 silly addNameRange     '1.2.0',
+36 silly addNameRange     '1.2.1',
+36 silly addNameRange     '1.2.2',
+36 silly addNameRange     '1.2.3',
+36 silly addNameRange     '1.2.4',
+36 silly addNameRange     '1.2.5',
+36 silly addNameRange     '1.2.6',
+36 silly addNameRange     '1.2.7',
+36 silly addNameRange     '1.2.8',
+36 silly addNameRange     '1.3.0',
+36 silly addNameRange     '1.3.1',
+36 silly addNameRange     '1.3.2',
+36 silly addNameRange     '1.3.3',
+36 silly addNameRange     '1.3.4',
+36 silly addNameRange     '1.3.5',
+36 silly addNameRange     '1.3.6',
+36 silly addNameRange     '1.3.7',
+36 silly addNameRange     '1.3.8',
+36 silly addNameRange     '1.3.9',
+36 silly addNameRange     '1.3.10',
+36 silly addNameRange     '1.3.11',
+36 silly addNameRange     '1.3.12' ] ]
+37 verbose addNamed [ 'bower', '1.3.12' ]
+38 verbose addNamed [ '1.3.12', '1.3.12' ]
+39 silly lockFile 9819431c-bower-1-3-12 bower@1.3.12
+40 verbose lock bower@1.3.12 /Users/Lowry/.npm/9819431c-bower-1-3-12.lock
+41 silly lockFile 9819431c-bower-1-3-12 bower@1.3.12
+42 silly lockFile 9819431c-bower-1-3-12 bower@1.3.12
+43 silly lockFile b788227f-bower bower@*
+44 silly lockFile b788227f-bower bower@*
+45 silly resolved [ { name: 'bower',
+45 silly resolved     version: '1.3.12',
+45 silly resolved     description: 'The browser package manager',
+45 silly resolved     author: { name: 'Twitter' },
+45 silly resolved     licenses: [ [Object] ],
+45 silly resolved     repository: { type: 'git', url: 'https://github.com/bower/bower' },
+45 silly resolved     main: 'lib',
+45 silly resolved     homepage: 'http://bower.io',
+45 silly resolved     engines: { node: '>=0.10.0' },
+45 silly resolved     dependencies:
+45 silly resolved      { abbrev: '~1.0.4',
+45 silly resolved        archy: '0.0.2',
+45 silly resolved        'bower-config': '~0.5.2',
+45 silly resolved        'bower-endpoint-parser': '~0.2.2',
+45 silly resolved        'bower-json': '~0.4.0',
+45 silly resolved        'bower-logger': '~0.2.2',
+45 silly resolved        'bower-registry-client': '~0.2.0',
+45 silly resolved        cardinal: '0.4.0',
+45 silly resolved        chalk: '0.5.0',
+45 silly resolved        chmodr: '0.1.0',
+45 silly resolved        'decompress-zip': '0.0.8',
+45 silly resolved        fstream: '~1.0.2',
+45 silly resolved        'fstream-ignore': '~1.0.1',
+45 silly resolved        glob: '~4.0.2',
+45 silly resolved        'graceful-fs': '~3.0.1',
+45 silly resolved        handlebars: '~2.0.0',
+45 silly resolved        inquirer: '0.7.1',
+45 silly resolved        insight: '0.4.3',
+45 silly resolved        'is-root': '~1.0.0',
+45 silly resolved        junk: '~1.0.0',
+45 silly resolved        lockfile: '~1.0.0',
+45 silly resolved        'lru-cache': '~2.5.0',
+45 silly resolved        mkdirp: '0.5.0',
+45 silly resolved        mout: '~0.9.0',
+45 silly resolved        nopt: '~3.0.0',
+45 silly resolved        opn: '~1.0.0',
+45 silly resolved        osenv: '0.1.0',
+45 silly resolved        'p-throttler': '0.1.0',
+45 silly resolved        promptly: '0.2.0',
+45 silly resolved        q: '~1.0.1',
+45 silly resolved        request: '~2.42.0',
+45 silly resolved        'request-progress': '0.3.0',
+45 silly resolved        retry: '0.6.0',
+45 silly resolved        rimraf: '~2.2.0',
+45 silly resolved        semver: '~2.3.0',
+45 silly resolved        'shell-quote': '~1.4.1',
+45 silly resolved        'stringify-object': '~1.0.0',
+45 silly resolved        'tar-fs': '0.5.2',
+45 silly resolved        tmp: '0.0.23',
+45 silly resolved        'update-notifier': '0.2.0',
+45 silly resolved        which: '~1.0.5' },
+45 silly resolved     devDependencies:
+45 silly resolved      { coveralls: '~2.11.0',
+45 silly resolved        'expect.js': '~0.3.1',
+45 silly resolved        grunt: '~0.4.4',
+45 silly resolved        'grunt-cli': '^0.1.13',
+45 silly resolved        'grunt-contrib-jshint': '~0.10.0',
+45 silly resolved        'grunt-contrib-watch': '~0.6.1',
+45 silly resolved        'grunt-exec': '~0.4.2',
+45 silly resolved        'grunt-simple-mocha': '~0.4.0',
+45 silly resolved        istanbul: '~0.3.2',
+45 silly resolved        'load-grunt-tasks': '~0.6.0',
+45 silly resolved        mocha: '~1.21.4',
+45 silly resolved        nock: '~0.46.0',
+45 silly resolved        'node-uuid': '~1.4.1',
+45 silly resolved        proxyquire: '~1.0.1' },
+45 silly resolved     scripts: { test: 'grunt test' },
+45 silly resolved     bin: { bower: 'bin/bower' },
+45 silly resolved     preferGlobal: true,
+45 silly resolved     gitHead: 'b26c072f0db054a1902ec4d2e3726dbf8a1c799a',
+45 silly resolved     bugs: { url: 'https://github.com/bower/bower/issues' },
+45 silly resolved     _id: 'bower@1.3.12',
+45 silly resolved     _shasum: '37de0edb3904baf90aee13384a1a379a05ee214c',
+45 silly resolved     _from: 'bower@*',
+45 silly resolved     _npmVersion: '2.0.0',
+45 silly resolved     _npmUser: { name: 'sheerun', email: 'sheerun@sher.pl' },
+45 silly resolved     maintainers: [ [Object], [Object], [Object], [Object], [Object], [Object] ],
+45 silly resolved     dist:
+45 silly resolved      { shasum: '37de0edb3904baf90aee13384a1a379a05ee214c',
+45 silly resolved        tarball: 'http://registry.npmjs.org/bower/-/bower-1.3.12.tgz' },
+45 silly resolved     directories: {},
+45 silly resolved     _resolved: 'https://registry.npmjs.org/bower/-/bower-1.3.12.tgz',
+45 silly resolved     readme: 'ERROR: No README data found!' } ]
+46 info install bower@1.3.12 into /usr/lib
+47 info installOne bower@1.3.12
+48 verbose lib/node_modules/bower unbuild
+49 verbose gentlyRm vacuuming /usr/lib/node_modules/bower
+50 verbose tar unpack /Users/Lowry/.npm/bower/1.3.12/package.tgz
+51 silly lockFile 6f53a3f9-tar-usr-lib-node-modules-bower tar:///usr/lib/node_modules/bower
+52 verbose lock tar:///usr/lib/node_modules/bower /Users/Lowry/.npm/6f53a3f9-tar-usr-lib-node-modules-bower.lock
+53 silly lockFile c09956e9-wry-npm-bower-1-3-12-package-tgz tar:///Users/Lowry/.npm/bower/1.3.12/package.tgz
+54 verbose lock tar:///Users/Lowry/.npm/bower/1.3.12/package.tgz /Users/Lowry/.npm/c09956e9-wry-npm-bower-1-3-12-package-tgz.lock
+55 verbose gentlyRm vacuuming /usr/lib/node_modules/bower
+56 silly gunzTarPerm modes [ '755', '644' ]
+57 silly gunzTarPerm extractEntry package.json
+58 silly gunzTarPerm extractEntry .npmignore
+59 silly gunzTarPerm extractEntry README.md
+60 silly gunzTarPerm extractEntry LICENSE
+61 silly gunzTarPerm extractEntry Gruntfile.js
+62 silly gunzTarPerm extractEntry HOOKS.md
+63 silly gunzTarPerm extractEntry CHANGELOG.md
+64 silly gunzTarPerm extractEntry CONTRIBUTING.md
+65 silly gunzTarPerm extractEntry .editorconfig
+66 silly gunzTarPerm extractEntry .jshintrc
+67 silly gunzTarPerm extractEntry bin/bower
+68 silly gunzTarPerm extractEntry lib/config.js
+69 silly gunzTarPerm extractEntry lib/index.js
+70 silly gunzTarPerm extractEntry lib/commands/version.js
+71 silly gunzTarPerm extractEntry lib/commands/info.js
+72 silly gunzTarPerm extractEntry lib/commands/init.js
+73 silly gunzTarPerm extractEntry lib/commands/install.js
+74 silly gunzTarPerm extractEntry lib/commands/index.js
+75 silly gunzTarPerm extractEntry lib/commands/list.js
+76 silly gunzTarPerm extractEntry lib/commands/lookup.js
+77 silly gunzTarPerm extractEntry lib/commands/prune.js
+78 silly gunzTarPerm extractEntry lib/commands/register.js
+79 silly gunzTarPerm extractEntry lib/commands/search.js
+80 silly gunzTarPerm extractEntry lib/commands/home.js
+81 silly gunzTarPerm extractEntry lib/commands/uninstall.js
+82 silly gunzTarPerm extractEntry lib/commands/help.js
+83 silly gunzTarPerm extractEntry lib/commands/update.js
+84 silly gunzTarPerm extractEntry lib/commands/completion.js
+85 silly gunzTarPerm extractEntry lib/commands/link.js
+86 silly gunzTarPerm extractEntry lib/commands/cache/clean.js
+87 silly gunzTarPerm extractEntry lib/commands/cache/list.js
+88 silly gunzTarPerm extractEntry lib/core/Manager.js
+89 silly gunzTarPerm extractEntry lib/core/PackageRepository.js
+90 silly gunzTarPerm extractEntry lib/core/Project.js
+91 silly gunzTarPerm extractEntry lib/core/ResolveCache.js
+92 silly gunzTarPerm extractEntry lib/core/resolverFactory.js
+93 silly gunzTarPerm extractEntry lib/core/scripts.js
+94 silly gunzTarPerm extractEntry lib/core/resolvers/FsResolver.js
+95 silly gunzTarPerm extractEntry lib/core/resolvers/GitFsResolver.js
+96 silly gunzTarPerm extractEntry lib/core/resolvers/GitHubResolver.js
+97 silly gunzTarPerm extractEntry lib/core/resolvers/GitRemoteResolver.js
+98 silly gunzTarPerm extractEntry lib/core/resolvers/GitResolver.js
+99 silly gunzTarPerm extractEntry lib/core/resolvers/Resolver.js
+100 silly gunzTarPerm extractEntry lib/core/resolvers/SvnResolver.js
+101 silly gunzTarPerm extractEntry lib/core/resolvers/UrlResolver.js
+102 silly gunzTarPerm extractEntry lib/core/resolvers/index.js
+103 silly gunzTarPerm extractEntry lib/renderers/JsonRenderer.js
+104 silly gunzTarPerm extractEntry lib/renderers/StandardRenderer.js
+105 silly gunzTarPerm extractEntry lib/renderers/index.js
+106 silly gunzTarPerm extractEntry lib/util/analytics.js
+107 silly gunzTarPerm extractEntry lib/util/createError.js
+108 silly gunzTarPerm extractEntry lib/util/createLink.js
+109 silly gunzTarPerm extractEntry lib/util/download.js
+110 silly gunzTarPerm extractEntry lib/util/copy.js
+111 silly gunzTarPerm extractEntry lib/util/md5.js
+112 silly gunzTarPerm extractEntry lib/util/readJson.js
+113 silly gunzTarPerm extractEntry lib/util/removeIgnores.js
+114 silly gunzTarPerm extractEntry lib/util/rootCheck.js
+115 silly gunzTarPerm extractEntry lib/util/semver.js
+116 silly gunzTarPerm extractEntry lib/util/cmd.js
+117 silly gunzTarPerm extractEntry lib/util/template.js
+118 silly gunzTarPerm extractEntry lib/util/cli.js
+119 silly gunzTarPerm extractEntry lib/util/validLink.js
+120 silly gunzTarPerm extractEntry lib/util/extract.js
+121 silly gunzTarPerm extractEntry templates/helpers/colors.js
+122 silly gunzTarPerm extractEntry templates/helpers/condense.js
+123 silly gunzTarPerm extractEntry templates/helpers/indent.js
+124 silly gunzTarPerm extractEntry templates/helpers/index.js
+125 silly gunzTarPerm extractEntry templates/helpers/rpad.js
+126 silly gunzTarPerm extractEntry templates/helpers/sum.js
+127 silly gunzTarPerm extractEntry templates/json/help-lookup.json
+128 silly gunzTarPerm extractEntry templates/json/help-cache/clean.json
+129 silly gunzTarPerm extractEntry templates/json/help-cache/list.json
+130 silly gunzTarPerm extractEntry templates/json/help-home.json
+131 silly gunzTarPerm extractEntry templates/json/help-info.json
+132 silly gunzTarPerm extractEntry templates/json/help-init.json
+133 silly gunzTarPerm extractEntry templates/json/help-install.json
+134 silly gunzTarPerm extractEntry templates/json/help-link.json
+135 silly gunzTarPerm extractEntry templates/json/help-list.json
+136 silly gunzTarPerm extractEntry templates/json/help-cache.json
+137 silly gunzTarPerm extractEntry templates/json/help-prune.json
+138 silly gunzTarPerm extractEntry templates/json/help-register.json
+139 silly gunzTarPerm extractEntry templates/json/help-search.json
+140 silly gunzTarPerm extractEntry templates/json/help-uninstall.json
+141 silly gunzTarPerm extractEntry templates/json/help-update.json
+142 silly gunzTarPerm extractEntry templates/json/help-version.json
+143 silly gunzTarPerm extractEntry templates/json/help.json
+144 silly gunzTarPerm extractEntry templates/std/conflict-resolved.std
+145 silly gunzTarPerm extractEntry templates/std/conflict.std
+146 silly gunzTarPerm extractEntry templates/std/help-cache.std
+147 silly gunzTarPerm extractEntry templates/std/help-generic.std
+148 silly gunzTarPerm extractEntry templates/std/help.std
+149 silly gunzTarPerm extractEntry templates/std/info.std
+150 silly gunzTarPerm extractEntry templates/std/lookup.std
+151 silly gunzTarPerm extractEntry templates/std/register.std
+152 silly gunzTarPerm extractEntry templates/std/search-results.std
+153 silly gunzTarPerm extractEntry .travis.yml
+154 silly gunzTarPerm extractEntry test/helpers.js
+155 silly gunzTarPerm extractEntry test/packages-svn.js
+156 silly gunzTarPerm extractEntry test/packages.js
+157 silly gunzTarPerm extractEntry test/test.js
+158 silly gunzTarPerm extractEntry test/packages-svn.json
+159 silly gunzTarPerm extractEntry test/commands/index.js
+160 silly gunzTarPerm extractEntry test/commands/init.js
+161 silly gunzTarPerm extractEntry test/commands/install.js
+162 silly gunzTarPerm extractEntry test/commands/uninstall.js
+163 silly gunzTarPerm extractEntry test/commands/update.js
+164 silly gunzTarPerm extractEntry test/assets/package-zip-single-bower-json.zip
+165 silly gunzTarPerm extractEntry test/assets/package-tar.tar.gz
+166 silly gunzTarPerm extractEntry test/assets/package-zip-folder-single-file.zip
+167 silly gunzTarPerm extractEntry test/assets/package-zip-folder.zip
+168 silly gunzTarPerm extractEntry test/assets/package-zip-single-component-json.zip
+169 silly gunzTarPerm extractEntry test/assets/package-zip-single-file.zip
+170 silly gunzTarPerm extractEntry test/assets/package-zip.zip
+171 silly gunzTarPerm extractEntry test/assets/resolve-cache/list-json-1.json
+172 silly gunzTarPerm extractEntry test/assets/test-temp-dir/test-exception.js
+173 silly gunzTarPerm extractEntry test/assets/test-temp-dir/test.js
+174 silly gunzTarPerm extractEntry test/packages.json
+175 silly gunzTarPerm extractEntry test/core/Manager.js
+176 silly gunzTarPerm extractEntry test/core/packageRepository.js
+177 silly gunzTarPerm extractEntry test/core/resolveCache.js
+178 silly gunzTarPerm extractEntry test/core/resolverFactory.js
+179 silly gunzTarPerm extractEntry test/core/scripts.js
+180 silly gunzTarPerm extractEntry test/core/resolvers/fsResolver.js
+181 silly gunzTarPerm extractEntry test/core/resolvers/gitFsResolver.js
+182 silly gunzTarPerm extractEntry test/core/resolvers/gitHubResolver.js
+183 silly gunzTarPerm extractEntry test/core/resolvers/gitRemoteResolver.js
+184 silly gunzTarPerm extractEntry test/core/resolvers/gitResolver.js
+185 silly gunzTarPerm extractEntry test/core/resolvers/resolver.js
+186 silly gunzTarPerm extractEntry test/core/resolvers/svnResolver.js
+187 silly gunzTarPerm extractEntry test/core/resolvers/urlResolver.js
+188 silly gunzTarPerm extractEntry test/util/analytics.js
+189 silly gunzTarPerm extractEntry test/util/index.js
+190 silly gunzTarPerm extractEntry test/util/removeIgnores.js
+191 silly lockFile 6f53a3f9-tar-usr-lib-node-modules-bower tar:///usr/lib/node_modules/bower
+192 silly lockFile 6f53a3f9-tar-usr-lib-node-modules-bower tar:///usr/lib/node_modules/bower
+193 silly lockFile c09956e9-wry-npm-bower-1-3-12-package-tgz tar:///Users/Lowry/.npm/bower/1.3.12/package.tgz
+194 silly lockFile c09956e9-wry-npm-bower-1-3-12-package-tgz tar:///Users/Lowry/.npm/bower/1.3.12/package.tgz
+195 info preinstall bower@1.3.12
+196 verbose readDependencies using package.json deps
+197 verbose readDependencies using package.json deps
+198 verbose cache add [ 'bower-config@~0.5.2', null ]
+199 verbose cache add spec="bower-config@~0.5.2" args=["bower-config@~0.5.2",null]
+200 verbose cache add [ 'bower-endpoint-parser@~0.2.2', null ]
+201 verbose cache add spec="bower-endpoint-parser@~0.2.2" args=["bower-endpoint-parser@~0.2.2",null]
+202 verbose parsed spec { raw: 'bower-config@~0.5.2',
+202 verbose parsed spec   scope: null,
+202 verbose parsed spec   name: 'bower-config',
+202 verbose parsed spec   rawSpec: '~0.5.2',
+202 verbose parsed spec   spec: '>=0.5.2-0 <0.6.0-0',
+202 verbose parsed spec   type: 'range' }
+203 verbose addNamed [ 'bower-config', '>=0.5.2-0 <0.6.0-0' ]
+204 verbose addNamed [ null, '>=0.5.2-0 <0.6.0-0' ]
+205 silly lockFile 68851a15-bower-config-0-5-2-0-0-6-0-0 bower-config@>=0.5.2-0 <0.6.0-0
+206 verbose lock bower-config@>=0.5.2-0 <0.6.0-0 /Users/Lowry/.npm/68851a15-bower-config-0-5-2-0-0-6-0-0.lock
+207 verbose parsed spec { raw: 'bower-endpoint-parser@~0.2.2',
+207 verbose parsed spec   scope: null,
+207 verbose parsed spec   name: 'bower-endpoint-parser',
+207 verbose parsed spec   rawSpec: '~0.2.2',
+207 verbose parsed spec   spec: '>=0.2.2-0 <0.3.0-0',
+207 verbose parsed spec   type: 'range' }
+208 verbose addNamed [ 'bower-endpoint-parser', '>=0.2.2-0 <0.3.0-0' ]
+209 verbose addNamed [ null, '>=0.2.2-0 <0.3.0-0' ]
+210 silly lockFile c12b5b94--endpoint-parser-0-2-2-0-0-3-0-0 bower-endpoint-parser@>=0.2.2-0 <0.3.0-0
+211 verbose lock bower-endpoint-parser@>=0.2.2-0 <0.3.0-0 /Users/Lowry/.npm/c12b5b94--endpoint-parser-0-2-2-0-0-3-0-0.lock
+212 verbose cache add [ 'bower-json@~0.4.0', null ]
+213 verbose cache add spec="bower-json@~0.4.0" args=["bower-json@~0.4.0",null]
+214 verbose cache add [ 'bower-logger@~0.2.2', null ]
+215 verbose cache add spec="bower-logger@~0.2.2" args=["bower-logger@~0.2.2",null]
+216 verbose parsed spec { raw: 'bower-json@~0.4.0',
+216 verbose parsed spec   scope: null,
+216 verbose parsed spec   name: 'bower-json',
+216 verbose parsed spec   rawSpec: '~0.4.0',
+216 verbose parsed spec   spec: '>=0.4.0-0 <0.5.0-0',
+216 verbose parsed spec   type: 'range' }
+217 verbose addNamed [ 'bower-json', '>=0.4.0-0 <0.5.0-0' ]
+218 verbose addNamed [ null, '>=0.4.0-0 <0.5.0-0' ]
+219 silly lockFile 3992f7ce-bower-json-0-4-0-0-0-5-0-0 bower-json@>=0.4.0-0 <0.5.0-0
+220 verbose lock bower-json@>=0.4.0-0 <0.5.0-0 /Users/Lowry/.npm/3992f7ce-bower-json-0-4-0-0-0-5-0-0.lock
+221 verbose cache add [ 'bower-registry-client@~0.2.0', null ]
+222 verbose cache add spec="bower-registry-client@~0.2.0" args=["bower-registry-client@~0.2.0",null]
+223 verbose parsed spec { raw: 'bower-logger@~0.2.2',
+223 verbose parsed spec   scope: null,
+223 verbose parsed spec   name: 'bower-logger',
+223 verbose parsed spec   rawSpec: '~0.2.2',
+223 verbose parsed spec   spec: '>=0.2.2-0 <0.3.0-0',
+223 verbose parsed spec   type: 'range' }
+224 verbose addNamed [ 'bower-logger', '>=0.2.2-0 <0.3.0-0' ]
+225 verbose addNamed [ null, '>=0.2.2-0 <0.3.0-0' ]
+226 silly lockFile cd2c0c71-bower-logger-0-2-2-0-0-3-0-0 bower-logger@>=0.2.2-0 <0.3.0-0
+227 verbose lock bower-logger@>=0.2.2-0 <0.3.0-0 /Users/Lowry/.npm/cd2c0c71-bower-logger-0-2-2-0-0-3-0-0.lock
+228 silly addNameRange { name: 'bower-config',
+228 silly addNameRange   range: '>=0.5.2-0 <0.6.0-0',
+228 silly addNameRange   hasData: false }
+229 verbose mapToRegistry name bower-config
+230 verbose mapToRegistry uri https://registry.npmjs.org/bower-config
+231 silly addNameRange { name: 'bower-endpoint-parser',
+231 silly addNameRange   range: '>=0.2.2-0 <0.3.0-0',
+231 silly addNameRange   hasData: false }
+232 verbose mapToRegistry name bower-endpoint-parser
+233 verbose mapToRegistry uri https://registry.npmjs.org/bower-endpoint-parser
+234 verbose cache add [ 'chmodr@0.1.0', null ]
+235 verbose cache add spec="chmodr@0.1.0" args=["chmodr@0.1.0",null]
+236 verbose cache add [ 'cardinal@0.4.0', null ]
+237 verbose cache add spec="cardinal@0.4.0" args=["cardinal@0.4.0",null]
+238 verbose cache add [ 'chalk@0.5.0', null ]
+239 verbose cache add spec="chalk@0.5.0" args=["chalk@0.5.0",null]
+240 verbose parsed spec { raw: 'bower-registry-client@~0.2.0',
+240 verbose parsed spec   scope: null,
+240 verbose parsed spec   name: 'bower-registry-client',
+240 verbose parsed spec   rawSpec: '~0.2.0',
+240 verbose parsed spec   spec: '>=0.2.0-0 <0.3.0-0',
+240 verbose parsed spec   type: 'range' }
+241 verbose addNamed [ 'bower-registry-client', '>=0.2.0-0 <0.3.0-0' ]
+242 verbose addNamed [ null, '>=0.2.0-0 <0.3.0-0' ]
+243 silly lockFile 30ff83fb--registry-client-0-2-0-0-0-3-0-0 bower-registry-client@>=0.2.0-0 <0.3.0-0
+244 verbose lock bower-registry-client@>=0.2.0-0 <0.3.0-0 /Users/Lowry/.npm/30ff83fb--registry-client-0-2-0-0-0-3-0-0.lock
+245 verbose parsed spec { raw: 'chmodr@0.1.0',
+245 verbose parsed spec   scope: null,
+245 verbose parsed spec   name: 'chmodr',
+245 verbose parsed spec   rawSpec: '0.1.0',
+245 verbose parsed spec   spec: '0.1.0',
+245 verbose parsed spec   type: 'version' }
+246 verbose addNamed [ 'chmodr', '0.1.0' ]
+247 verbose addNamed [ '0.1.0', '0.1.0' ]
+248 silly lockFile 3c50e6b3-chmodr-0-1-0 chmodr@0.1.0
+249 verbose lock chmodr@0.1.0 /Users/Lowry/.npm/3c50e6b3-chmodr-0-1-0.lock
+250 verbose parsed spec { raw: 'cardinal@0.4.0',
+250 verbose parsed spec   scope: null,
+250 verbose parsed spec   name: 'cardinal',
+250 verbose parsed spec   rawSpec: '0.4.0',
+250 verbose parsed spec   spec: '0.4.0',
+250 verbose parsed spec   type: 'version' }
+251 verbose addNamed [ 'cardinal', '0.4.0' ]
+252 verbose addNamed [ '0.4.0', '0.4.0' ]
+253 silly lockFile f5578357-cardinal-0-4-0 cardinal@0.4.0
+254 verbose lock cardinal@0.4.0 /Users/Lowry/.npm/f5578357-cardinal-0-4-0.lock
+255 verbose parsed spec { raw: 'chalk@0.5.0',
+255 verbose parsed spec   scope: null,
+255 verbose parsed spec   name: 'chalk',
+255 verbose parsed spec   rawSpec: '0.5.0',
+255 verbose parsed spec   spec: '0.5.0',
+255 verbose parsed spec   type: 'version' }
+256 verbose addNamed [ 'chalk', '0.5.0' ]
+257 verbose addNamed [ '0.5.0', '0.5.0' ]
+258 silly lockFile b1055cc0-chalk-0-5-0 chalk@0.5.0
+259 verbose lock chalk@0.5.0 /Users/Lowry/.npm/b1055cc0-chalk-0-5-0.lock
+260 verbose cache add [ 'fstream-ignore@~1.0.1', null ]
+261 verbose cache add spec="fstream-ignore@~1.0.1" args=["fstream-ignore@~1.0.1",null]
+262 verbose cache add [ 'decompress-zip@0.0.8', null ]
+263 verbose cache add spec="decompress-zip@0.0.8" args=["decompress-zip@0.0.8",null]
+264 verbose cache add [ 'fstream@~1.0.2', null ]
+265 verbose cache add spec="fstream@~1.0.2" args=["fstream@~1.0.2",null]
+266 silly addNameRange { name: 'bower-json',
+266 silly addNameRange   range: '>=0.4.0-0 <0.5.0-0',
+266 silly addNameRange   hasData: false }
+267 verbose mapToRegistry name bower-json
+268 verbose mapToRegistry uri https://registry.npmjs.org/bower-json
+269 silly addNameRange { name: 'bower-logger',
+269 silly addNameRange   range: '>=0.2.2-0 <0.3.0-0',
+269 silly addNameRange   hasData: false }
+270 verbose mapToRegistry name bower-logger
+271 verbose mapToRegistry uri https://registry.npmjs.org/bower-logger
+272 verbose parsed spec { raw: 'fstream-ignore@~1.0.1',
+272 verbose parsed spec   scope: null,
+272 verbose parsed spec   name: 'fstream-ignore',
+272 verbose parsed spec   rawSpec: '~1.0.1',
+272 verbose parsed spec   spec: '>=1.0.1-0 <1.1.0-0',
+272 verbose parsed spec   type: 'range' }
+273 verbose addNamed [ 'fstream-ignore', '>=1.0.1-0 <1.1.0-0' ]
+274 verbose addNamed [ null, '>=1.0.1-0 <1.1.0-0' ]
+275 silly lockFile 6e8184b7-fstream-ignore-1-0-1-0-1-1-0-0 fstream-ignore@>=1.0.1-0 <1.1.0-0
+276 verbose lock fstream-ignore@>=1.0.1-0 <1.1.0-0 /Users/Lowry/.npm/6e8184b7-fstream-ignore-1-0-1-0-1-1-0-0.lock
+277 verbose parsed spec { raw: 'decompress-zip@0.0.8',
+277 verbose parsed spec   scope: null,
+277 verbose parsed spec   name: 'decompress-zip',
+277 verbose parsed spec   rawSpec: '0.0.8',
+277 verbose parsed spec   spec: '0.0.8',
+277 verbose parsed spec   type: 'version' }
+278 verbose addNamed [ 'decompress-zip', '0.0.8' ]
+279 verbose addNamed [ '0.0.8', '0.0.8' ]
+280 silly lockFile 7a56c733-decompress-zip-0-0-8 decompress-zip@0.0.8
+281 verbose lock decompress-zip@0.0.8 /Users/Lowry/.npm/7a56c733-decompress-zip-0-0-8.lock
+282 verbose parsed spec { raw: 'fstream@~1.0.2',
+282 verbose parsed spec   scope: null,
+282 verbose parsed spec   name: 'fstream',
+282 verbose parsed spec   rawSpec: '~1.0.2',
+282 verbose parsed spec   spec: '>=1.0.2-0 <1.1.0-0',
+282 verbose parsed spec   type: 'range' }
+283 verbose addNamed [ 'fstream', '>=1.0.2-0 <1.1.0-0' ]
+284 verbose addNamed [ null, '>=1.0.2-0 <1.1.0-0' ]
+285 silly lockFile 2a840899-fstream-1-0-2-0-1-1-0-0 fstream@>=1.0.2-0 <1.1.0-0
+286 verbose lock fstream@>=1.0.2-0 <1.1.0-0 /Users/Lowry/.npm/2a840899-fstream-1-0-2-0-1-1-0-0.lock
+287 verbose cache add [ 'graceful-fs@~3.0.1', null ]
+288 verbose cache add spec="graceful-fs@~3.0.1" args=["graceful-fs@~3.0.1",null]
+289 verbose cache add [ 'glob@~4.0.2', null ]
+290 verbose cache add spec="glob@~4.0.2" args=["glob@~4.0.2",null]
+291 verbose cache add [ 'handlebars@~2.0.0', null ]
+292 verbose cache add spec="handlebars@~2.0.0" args=["handlebars@~2.0.0",null]
+293 verbose cache add [ 'inquirer@0.7.1', null ]
+294 verbose cache add spec="inquirer@0.7.1" args=["inquirer@0.7.1",null]
+295 silly addNameRange { name: 'bower-registry-client',
+295 silly addNameRange   range: '>=0.2.0-0 <0.3.0-0',
+295 silly addNameRange   hasData: false }
+296 verbose mapToRegistry name bower-registry-client
+297 verbose mapToRegistry uri https://registry.npmjs.org/bower-registry-client
+298 verbose mapToRegistry name chmodr
+299 verbose mapToRegistry uri https://registry.npmjs.org/chmodr
+300 verbose cache add [ 'insight@0.4.3', null ]
+301 verbose cache add spec="insight@0.4.3" args=["insight@0.4.3",null]
+302 verbose cache add [ 'is-root@~1.0.0', null ]
+303 verbose cache add spec="is-root@~1.0.0" args=["is-root@~1.0.0",null]
+304 verbose cache add [ 'junk@~1.0.0', null ]
+305 verbose cache add spec="junk@~1.0.0" args=["junk@~1.0.0",null]
+306 verbose cache add [ 'lockfile@~1.0.0', null ]
+307 verbose cache add spec="lockfile@~1.0.0" args=["lockfile@~1.0.0",null]
+308 verbose cache add [ 'lru-cache@~2.5.0', null ]
+309 verbose cache add spec="lru-cache@~2.5.0" args=["lru-cache@~2.5.0",null]
+310 verbose cache add [ 'mkdirp@0.5.0', null ]
+311 verbose cache add spec="mkdirp@0.5.0" args=["mkdirp@0.5.0",null]
+312 verbose parsed spec { raw: 'graceful-fs@~3.0.1',
+312 verbose parsed spec   scope: null,
+312 verbose parsed spec   name: 'graceful-fs',
+312 verbose parsed spec   rawSpec: '~3.0.1',
+312 verbose parsed spec   spec: '>=3.0.1-0 <3.1.0-0',
+312 verbose parsed spec   type: 'range' }
+313 verbose addNamed [ 'graceful-fs', '>=3.0.1-0 <3.1.0-0' ]
+314 verbose addNamed [ null, '>=3.0.1-0 <3.1.0-0' ]
+315 silly lockFile ac8aadb6-graceful-fs-3-0-1-0-3-1-0-0 graceful-fs@>=3.0.1-0 <3.1.0-0
+316 verbose lock graceful-fs@>=3.0.1-0 <3.1.0-0 /Users/Lowry/.npm/ac8aadb6-graceful-fs-3-0-1-0-3-1-0-0.lock
+317 verbose parsed spec { raw: 'glob@~4.0.2',
+317 verbose parsed spec   scope: null,
+317 verbose parsed spec   name: 'glob',
+317 verbose parsed spec   rawSpec: '~4.0.2',
+317 verbose parsed spec   spec: '>=4.0.2-0 <4.1.0-0',
+317 verbose parsed spec   type: 'range' }
+318 verbose addNamed [ 'glob', '>=4.0.2-0 <4.1.0-0' ]
+319 verbose addNamed [ null, '>=4.0.2-0 <4.1.0-0' ]
+320 silly lockFile fbb2f1b2-glob-4-0-2-0-4-1-0-0 glob@>=4.0.2-0 <4.1.0-0
+321 verbose lock glob@>=4.0.2-0 <4.1.0-0 /Users/Lowry/.npm/fbb2f1b2-glob-4-0-2-0-4-1-0-0.lock
+322 verbose cache add [ 'mout@~0.9.0', null ]
+323 verbose cache add spec="mout@~0.9.0" args=["mout@~0.9.0",null]
+324 verbose parsed spec { raw: 'handlebars@~2.0.0',
+324 verbose parsed spec   scope: null,
+324 verbose parsed spec   name: 'handlebars',
+324 verbose parsed spec   rawSpec: '~2.0.0',
+324 verbose parsed spec   spec: '>=2.0.0-0 <2.1.0-0',
+324 verbose parsed spec   type: 'range' }
+325 verbose addNamed [ 'handlebars', '>=2.0.0-0 <2.1.0-0' ]
+326 verbose addNamed [ null, '>=2.0.0-0 <2.1.0-0' ]
+327 silly lockFile a9ed0724-handlebars-2-0-0-0-2-1-0-0 handlebars@>=2.0.0-0 <2.1.0-0
+328 verbose lock handlebars@>=2.0.0-0 <2.1.0-0 /Users/Lowry/.npm/a9ed0724-handlebars-2-0-0-0-2-1-0-0.lock
+329 verbose parsed spec { raw: 'inquirer@0.7.1',
+329 verbose parsed spec   scope: null,
+329 verbose parsed spec   name: 'inquirer',
+329 verbose parsed spec   rawSpec: '0.7.1',
+329 verbose parsed spec   spec: '0.7.1',
+329 verbose parsed spec   type: 'version' }
+330 verbose addNamed [ 'inquirer', '0.7.1' ]
+331 verbose addNamed [ '0.7.1', '0.7.1' ]
+332 silly lockFile 07877a53-inquirer-0-7-1 inquirer@0.7.1
+333 verbose lock inquirer@0.7.1 /Users/Lowry/.npm/07877a53-inquirer-0-7-1.lock
+334 verbose cache add [ 'nopt@~3.0.0', null ]
+335 verbose cache add spec="nopt@~3.0.0" args=["nopt@~3.0.0",null]
+336 verbose cache add [ 'opn@~1.0.0', null ]
+337 verbose cache add spec="opn@~1.0.0" args=["opn@~1.0.0",null]
+338 verbose cache add [ 'osenv@0.1.0', null ]
+339 verbose cache add spec="osenv@0.1.0" args=["osenv@0.1.0",null]
+340 verbose cache add [ 'p-throttler@0.1.0', null ]
+341 verbose cache add spec="p-throttler@0.1.0" args=["p-throttler@0.1.0",null]
+342 verbose cache add [ 'promptly@0.2.0', null ]
+343 verbose cache add spec="promptly@0.2.0" args=["promptly@0.2.0",null]
+344 verbose cache add [ 'q@~1.0.1', null ]
+345 verbose cache add spec="q@~1.0.1" args=["q@~1.0.1",null]
+346 verbose cache add [ 'request@~2.42.0', null ]
+347 verbose cache add spec="request@~2.42.0" args=["request@~2.42.0",null]
+348 verbose cache add [ 'request-progress@0.3.0', null ]
+349 verbose cache add spec="request-progress@0.3.0" args=["request-progress@0.3.0",null]
+350 verbose cache add [ 'retry@0.6.0', null ]
+351 verbose cache add spec="retry@0.6.0" args=["retry@0.6.0",null]
+352 verbose cache add [ 'rimraf@~2.2.0', null ]
+353 verbose cache add spec="rimraf@~2.2.0" args=["rimraf@~2.2.0",null]
+354 verbose cache add [ 'semver@~2.3.0', null ]
+355 verbose cache add spec="semver@~2.3.0" args=["semver@~2.3.0",null]
+356 verbose cache add [ 'shell-quote@~1.4.1', null ]
+357 verbose cache add spec="shell-quote@~1.4.1" args=["shell-quote@~1.4.1",null]
+358 verbose cache add [ 'tmp@0.0.23', null ]
+359 verbose cache add spec="tmp@0.0.23" args=["tmp@0.0.23",null]
+360 verbose cache add [ 'stringify-object@~1.0.0', null ]
+361 verbose cache add spec="stringify-object@~1.0.0" args=["stringify-object@~1.0.0",null]
+362 verbose cache add [ 'tar-fs@0.5.2', null ]
+363 verbose cache add spec="tar-fs@0.5.2" args=["tar-fs@0.5.2",null]
+364 verbose cache add [ 'update-notifier@0.2.0', null ]
+365 verbose cache add spec="update-notifier@0.2.0" args=["update-notifier@0.2.0",null]
+366 verbose cache add [ 'which@~1.0.5', null ]
+367 verbose cache add spec="which@~1.0.5" args=["which@~1.0.5",null]
+368 verbose cache add [ 'abbrev@~1.0.4', null ]
+369 verbose cache add spec="abbrev@~1.0.4" args=["abbrev@~1.0.4",null]
+370 verbose cache add [ 'archy@0.0.2', null ]
+371 verbose cache add spec="archy@0.0.2" args=["archy@0.0.2",null]
+372 verbose parsed spec { raw: 'insight@0.4.3',
+372 verbose parsed spec   scope: null,
+372 verbose parsed spec   name: 'insight',
+372 verbose parsed spec   rawSpec: '0.4.3',
+372 verbose parsed spec   spec: '0.4.3',
+372 verbose parsed spec   type: 'version' }
+373 verbose addNamed [ 'insight', '0.4.3' ]
+374 verbose addNamed [ '0.4.3', '0.4.3' ]
+375 silly lockFile da4675d5-insight-0-4-3 insight@0.4.3
+376 verbose lock insight@0.4.3 /Users/Lowry/.npm/da4675d5-insight-0-4-3.lock
+377 verbose parsed spec { raw: 'lockfile@~1.0.0',
+377 verbose parsed spec   scope: null,
+377 verbose parsed spec   name: 'lockfile',
+377 verbose parsed spec   rawSpec: '~1.0.0',
+377 verbose parsed spec   spec: '>=1.0.0-0 <1.1.0-0',
+377 verbose parsed spec   type: 'range' }
+378 verbose addNamed [ 'lockfile', '>=1.0.0-0 <1.1.0-0' ]
+379 verbose addNamed [ null, '>=1.0.0-0 <1.1.0-0' ]
+380 silly lockFile 34135b2e-lockfile-1-0-0-0-1-1-0-0 lockfile@>=1.0.0-0 <1.1.0-0
+381 verbose lock lockfile@>=1.0.0-0 <1.1.0-0 /Users/Lowry/.npm/34135b2e-lockfile-1-0-0-0-1-1-0-0.lock
+382 verbose parsed spec { raw: 'lru-cache@~2.5.0',
+382 verbose parsed spec   scope: null,
+382 verbose parsed spec   name: 'lru-cache',
+382 verbose parsed spec   rawSpec: '~2.5.0',
+382 verbose parsed spec   spec: '>=2.5.0-0 <2.6.0-0',
+382 verbose parsed spec   type: 'range' }
+383 verbose addNamed [ 'lru-cache', '>=2.5.0-0 <2.6.0-0' ]
+384 verbose addNamed [ null, '>=2.5.0-0 <2.6.0-0' ]
+385 silly lockFile 2950c5d2-lru-cache-2-5-0-0-2-6-0-0 lru-cache@>=2.5.0-0 <2.6.0-0
+386 verbose lock lru-cache@>=2.5.0-0 <2.6.0-0 /Users/Lowry/.npm/2950c5d2-lru-cache-2-5-0-0-2-6-0-0.lock
+387 verbose parsed spec { raw: 'mkdirp@0.5.0',
+387 verbose parsed spec   scope: null,
+387 verbose parsed spec   name: 'mkdirp',
+387 verbose parsed spec   rawSpec: '0.5.0',
+387 verbose parsed spec   spec: '0.5.0',
+387 verbose parsed spec   type: 'version' }
+388 verbose addNamed [ 'mkdirp', '0.5.0' ]
+389 verbose addNamed [ '0.5.0', '0.5.0' ]
+390 silly lockFile bf9ae38d-mkdirp-0-5-0 mkdirp@0.5.0
+391 verbose lock mkdirp@0.5.0 /Users/Lowry/.npm/bf9ae38d-mkdirp-0-5-0.lock
+392 verbose mapToRegistry name chalk
+393 verbose mapToRegistry uri https://registry.npmjs.org/chalk
+394 verbose mapToRegistry name cardinal
+395 verbose mapToRegistry uri https://registry.npmjs.org/cardinal
+396 verbose parsed spec { raw: 'junk@~1.0.0',
+396 verbose parsed spec   scope: null,
+396 verbose parsed spec   name: 'junk',
+396 verbose parsed spec   rawSpec: '~1.0.0',
+396 verbose parsed spec   spec: '>=1.0.0-0 <1.1.0-0',
+396 verbose parsed spec   type: 'range' }
+397 verbose addNamed [ 'junk', '>=1.0.0-0 <1.1.0-0' ]
+398 verbose addNamed [ null, '>=1.0.0-0 <1.1.0-0' ]
+399 silly lockFile 7589c58c-junk-1-0-0-0-1-1-0-0 junk@>=1.0.0-0 <1.1.0-0
+400 verbose lock junk@>=1.0.0-0 <1.1.0-0 /Users/Lowry/.npm/7589c58c-junk-1-0-0-0-1-1-0-0.lock
+401 verbose parsed spec { raw: 'is-root@~1.0.0',
+401 verbose parsed spec   scope: null,
+401 verbose parsed spec   name: 'is-root',
+401 verbose parsed spec   rawSpec: '~1.0.0',
+401 verbose parsed spec   spec: '>=1.0.0-0 <1.1.0-0',
+401 verbose parsed spec   type: 'range' }
+402 verbose addNamed [ 'is-root', '>=1.0.0-0 <1.1.0-0' ]
+403 verbose addNamed [ null, '>=1.0.0-0 <1.1.0-0' ]
+404 silly lockFile fb3fc889-is-root-1-0-0-0-1-1-0-0 is-root@>=1.0.0-0 <1.1.0-0
+405 verbose lock is-root@>=1.0.0-0 <1.1.0-0 /Users/Lowry/.npm/fb3fc889-is-root-1-0-0-0-1-1-0-0.lock
+406 verbose parsed spec { raw: 'mout@~0.9.0',
+406 verbose parsed spec   scope: null,
+406 verbose parsed spec   name: 'mout',
+406 verbose parsed spec   rawSpec: '~0.9.0',
+406 verbose parsed spec   spec: '>=0.9.0-0 <0.10.0-0',
+406 verbose parsed spec   type: 'range' }
+407 verbose addNamed [ 'mout', '>=0.9.0-0 <0.10.0-0' ]
+408 verbose addNamed [ null, '>=0.9.0-0 <0.10.0-0' ]
+409 silly lockFile d52116c4-mout-0-9-0-0-0-10-0-0 mout@>=0.9.0-0 <0.10.0-0
+410 verbose lock mout@>=0.9.0-0 <0.10.0-0 /Users/Lowry/.npm/d52116c4-mout-0-9-0-0-0-10-0-0.lock
+411 silly addNameRange { name: 'fstream-ignore',
+411 silly addNameRange   range: '>=1.0.1-0 <1.1.0-0',
+411 silly addNameRange   hasData: false }
+412 verbose mapToRegistry name fstream-ignore
+413 verbose mapToRegistry uri https://registry.npmjs.org/fstream-ignore
+414 verbose mapToRegistry name decompress-zip
+415 verbose mapToRegistry uri https://registry.npmjs.org/decompress-zip
+416 verbose parsed spec { raw: 'nopt@~3.0.0',
+416 verbose parsed spec   scope: null,
+416 verbose parsed spec   name: 'nopt',
+416 verbose parsed spec   rawSpec: '~3.0.0',
+416 verbose parsed spec   spec: '>=3.0.0-0 <3.1.0-0',
+416 verbose parsed spec   type: 'range' }
+417 verbose addNamed [ 'nopt', '>=3.0.0-0 <3.1.0-0' ]
+418 verbose addNamed [ null, '>=3.0.0-0 <3.1.0-0' ]
+419 silly lockFile a8fda6ef-nopt-3-0-0-0-3-1-0-0 nopt@>=3.0.0-0 <3.1.0-0
+420 verbose lock nopt@>=3.0.0-0 <3.1.0-0 /Users/Lowry/.npm/a8fda6ef-nopt-3-0-0-0-3-1-0-0.lock
+421 verbose parsed spec { raw: 'opn@~1.0.0',
+421 verbose parsed spec   scope: null,
+421 verbose parsed spec   name: 'opn',
+421 verbose parsed spec   rawSpec: '~1.0.0',
+421 verbose parsed spec   spec: '>=1.0.0-0 <1.1.0-0',
+421 verbose parsed spec   type: 'range' }
+422 verbose addNamed [ 'opn', '>=1.0.0-0 <1.1.0-0' ]
+423 verbose addNamed [ null, '>=1.0.0-0 <1.1.0-0' ]
+424 silly lockFile 3b450405-opn-1-0-0-0-1-1-0-0 opn@>=1.0.0-0 <1.1.0-0
+425 verbose lock opn@>=1.0.0-0 <1.1.0-0 /Users/Lowry/.npm/3b450405-opn-1-0-0-0-1-1-0-0.lock
+426 verbose parsed spec { raw: 'osenv@0.1.0',
+426 verbose parsed spec   scope: null,
+426 verbose parsed spec   name: 'osenv',
+426 verbose parsed spec   rawSpec: '0.1.0',
+426 verbose parsed spec   spec: '0.1.0',
+426 verbose parsed spec   type: 'version' }
+427 verbose addNamed [ 'osenv', '0.1.0' ]
+428 verbose addNamed [ '0.1.0', '0.1.0' ]
+429 silly lockFile 8f25476a-osenv-0-1-0 osenv@0.1.0
+430 verbose lock osenv@0.1.0 /Users/Lowry/.npm/8f25476a-osenv-0-1-0.lock
+431 verbose parsed spec { raw: 'p-throttler@0.1.0',
+431 verbose parsed spec   scope: null,
+431 verbose parsed spec   name: 'p-throttler',
+431 verbose parsed spec   rawSpec: '0.1.0',
+431 verbose parsed spec   spec: '0.1.0',
+431 verbose parsed spec   type: 'version' }
+432 verbose addNamed [ 'p-throttler', '0.1.0' ]
+433 verbose addNamed [ '0.1.0', '0.1.0' ]
+434 silly lockFile aea1ccf7-p-throttler-0-1-0 p-throttler@0.1.0
+435 verbose lock p-throttler@0.1.0 /Users/Lowry/.npm/aea1ccf7-p-throttler-0-1-0.lock
+436 verbose parsed spec { raw: 'promptly@0.2.0',
+436 verbose parsed spec   scope: null,
+436 verbose parsed spec   name: 'promptly',
+436 verbose parsed spec   rawSpec: '0.2.0',
+436 verbose parsed spec   spec: '0.2.0',
+436 verbose parsed spec   type: 'version' }
+437 verbose addNamed [ 'promptly', '0.2.0' ]
+438 verbose addNamed [ '0.2.0', '0.2.0' ]
+439 silly lockFile c940dc36-promptly-0-2-0 promptly@0.2.0
+440 verbose lock promptly@0.2.0 /Users/Lowry/.npm/c940dc36-promptly-0-2-0.lock
+441 verbose parsed spec { raw: 'q@~1.0.1',
+441 verbose parsed spec   scope: null,
+441 verbose parsed spec   name: 'q',
+441 verbose parsed spec   rawSpec: '~1.0.1',
+441 verbose parsed spec   spec: '>=1.0.1-0 <1.1.0-0',
+441 verbose parsed spec   type: 'range' }
+442 verbose addNamed [ 'q', '>=1.0.1-0 <1.1.0-0' ]
+443 verbose addNamed [ null, '>=1.0.1-0 <1.1.0-0' ]
+444 silly lockFile a1c5d7ec-q-1-0-1-0-1-1-0-0 q@>=1.0.1-0 <1.1.0-0
+445 verbose lock q@>=1.0.1-0 <1.1.0-0 /Users/Lowry/.npm/a1c5d7ec-q-1-0-1-0-1-1-0-0.lock
+446 verbose parsed spec { raw: 'request@~2.42.0',
+446 verbose parsed spec   scope: null,
+446 verbose parsed spec   name: 'request',
+446 verbose parsed spec   rawSpec: '~2.42.0',
+446 verbose parsed spec   spec: '>=2.42.0-0 <2.43.0-0',
+446 verbose parsed spec   type: 'range' }
+447 verbose addNamed [ 'request', '>=2.42.0-0 <2.43.0-0' ]
+448 verbose addNamed [ null, '>=2.42.0-0 <2.43.0-0' ]
+449 silly lockFile 51179f40-request-2-42-0-0-2-43-0-0 request@>=2.42.0-0 <2.43.0-0
+450 verbose lock request@>=2.42.0-0 <2.43.0-0 /Users/Lowry/.npm/51179f40-request-2-42-0-0-2-43-0-0.lock
+451 verbose parsed spec { raw: 'request-progress@0.3.0',
+451 verbose parsed spec   scope: null,
+451 verbose parsed spec   name: 'request-progress',
+451 verbose parsed spec   rawSpec: '0.3.0',
+451 verbose parsed spec   spec: '0.3.0',
+451 verbose parsed spec   type: 'version' }
+452 verbose addNamed [ 'request-progress', '0.3.0' ]
+453 verbose addNamed [ '0.3.0', '0.3.0' ]
+454 silly lockFile caf2758e-request-progress-0-3-0 request-progress@0.3.0
+455 verbose lock request-progress@0.3.0 /Users/Lowry/.npm/caf2758e-request-progress-0-3-0.lock
+456 verbose request where is /bower-endpoint-parser
+457 verbose request registry https://registry.npmjs.org/
+458 verbose request url raw /bower-endpoint-parser
+459 verbose request url resolving [ 'https://registry.npmjs.org/', './bower-endpoint-parser' ]
+460 verbose request url resolved https://registry.npmjs.org/bower-endpoint-parser
+461 verbose request where is https://registry.npmjs.org/bower-endpoint-parser
+462 verbose request no basic auth needed
+463 info trying registry request attempt 1 at 11:31:21
+464 verbose etag "9QJXAYLLIG5CBD5BXX4EXSHAX"
+465 http GET https://registry.npmjs.org/bower-endpoint-parser
+466 verbose request where is /bower-config
+467 verbose request registry https://registry.npmjs.org/
+468 verbose request url raw /bower-config
+469 verbose request url resolving [ 'https://registry.npmjs.org/', './bower-config' ]
+470 verbose request url resolved https://registry.npmjs.org/bower-config
+471 verbose request where is https://registry.npmjs.org/bower-config
+472 verbose request no basic auth needed
+473 info trying registry request attempt 1 at 11:31:21
+474 verbose etag "C3ZWYW4U1ZCZE5JOMIEVTAV15"
+475 http GET https://registry.npmjs.org/bower-config
+476 verbose parsed spec { raw: 'retry@0.6.0',
+476 verbose parsed spec   scope: null,
+476 verbose parsed spec   name: 'retry',
+476 verbose parsed spec   rawSpec: '0.6.0',
+476 verbose parsed spec   spec: '0.6.0',
+476 verbose parsed spec   type: 'version' }
+477 verbose addNamed [ 'retry', '0.6.0' ]
+478 verbose addNamed [ '0.6.0', '0.6.0' ]
+479 silly lockFile 874cb068-retry-0-6-0 retry@0.6.0
+480 verbose lock retry@0.6.0 /Users/Lowry/.npm/874cb068-retry-0-6-0.lock
+481 verbose parsed spec { raw: 'rimraf@~2.2.0',
+481 verbose parsed spec   scope: null,
+481 verbose parsed spec   name: 'rimraf',
+481 verbose parsed spec   rawSpec: '~2.2.0',
+481 verbose parsed spec   spec: '>=2.2.0-0 <2.3.0-0',
+481 verbose parsed spec   type: 'range' }
+482 verbose addNamed [ 'rimraf', '>=2.2.0-0 <2.3.0-0' ]
+483 verbose addNamed [ null, '>=2.2.0-0 <2.3.0-0' ]
+484 silly lockFile 9e26a473-rimraf-2-2-0-0-2-3-0-0 rimraf@>=2.2.0-0 <2.3.0-0
+485 verbose lock rimraf@>=2.2.0-0 <2.3.0-0 /Users/Lowry/.npm/9e26a473-rimraf-2-2-0-0-2-3-0-0.lock
+486 verbose parsed spec { raw: 'semver@~2.3.0',
+486 verbose parsed spec   scope: null,
+486 verbose parsed spec   name: 'semver',
+486 verbose parsed spec   rawSpec: '~2.3.0',
+486 verbose parsed spec   spec: '>=2.3.0-0 <2.4.0-0',
+486 verbose parsed spec   type: 'range' }
+487 verbose addNamed [ 'semver', '>=2.3.0-0 <2.4.0-0' ]
+488 verbose addNamed [ null, '>=2.3.0-0 <2.4.0-0' ]
+489 silly lockFile b771a200-semver-2-3-0-0-2-4-0-0 semver@>=2.3.0-0 <2.4.0-0
+490 verbose lock semver@>=2.3.0-0 <2.4.0-0 /Users/Lowry/.npm/b771a200-semver-2-3-0-0-2-4-0-0.lock
+491 verbose parsed spec { raw: 'shell-quote@~1.4.1',
+491 verbose parsed spec   scope: null,
+491 verbose parsed spec   name: 'shell-quote',
+491 verbose parsed spec   rawSpec: '~1.4.1',
+491 verbose parsed spec   spec: '>=1.4.1-0 <1.5.0-0',
+491 verbose parsed spec   type: 'range' }
+492 verbose addNamed [ 'shell-quote', '>=1.4.1-0 <1.5.0-0' ]
+493 verbose addNamed [ null, '>=1.4.1-0 <1.5.0-0' ]
+494 silly lockFile b7a27e59-shell-quote-1-4-1-0-1-5-0-0 shell-quote@>=1.4.1-0 <1.5.0-0
+495 verbose lock shell-quote@>=1.4.1-0 <1.5.0-0 /Users/Lowry/.npm/b7a27e59-shell-quote-1-4-1-0-1-5-0-0.lock
+496 verbose parsed spec { raw: 'tmp@0.0.23',
+496 verbose parsed spec   scope: null,
+496 verbose parsed spec   name: 'tmp',
+496 verbose parsed spec   rawSpec: '0.0.23',
+496 verbose parsed spec   spec: '0.0.23',
+496 verbose parsed spec   type: 'version' }
+497 verbose addNamed [ 'tmp', '0.0.23' ]
+498 verbose addNamed [ '0.0.23', '0.0.23' ]
+499 silly lockFile f7638ceb-tmp-0-0-23 tmp@0.0.23
+500 verbose lock tmp@0.0.23 /Users/Lowry/.npm/f7638ceb-tmp-0-0-23.lock
+501 verbose parsed spec { raw: 'stringify-object@~1.0.0',
+501 verbose parsed spec   scope: null,
+501 verbose parsed spec   name: 'stringify-object',
+501 verbose parsed spec   rawSpec: '~1.0.0',
+501 verbose parsed spec   spec: '>=1.0.0-0 <1.1.0-0',
+501 verbose parsed spec   type: 'range' }
+502 verbose addNamed [ 'stringify-object', '>=1.0.0-0 <1.1.0-0' ]
+503 verbose addNamed [ null, '>=1.0.0-0 <1.1.0-0' ]
+504 silly lockFile bb7008be-stringify-object-1-0-0-0-1-1-0-0 stringify-object@>=1.0.0-0 <1.1.0-0
+505 verbose lock stringify-object@>=1.0.0-0 <1.1.0-0 /Users/Lowry/.npm/bb7008be-stringify-object-1-0-0-0-1-1-0-0.lock
+506 verbose parsed spec { raw: 'tar-fs@0.5.2',
+506 verbose parsed spec   scope: null,
+506 verbose parsed spec   name: 'tar-fs',
+506 verbose parsed spec   rawSpec: '0.5.2',
+506 verbose parsed spec   spec: '0.5.2',
+506 verbose parsed spec   type: 'version' }
+507 verbose addNamed [ 'tar-fs', '0.5.2' ]
+508 verbose addNamed [ '0.5.2', '0.5.2' ]
+509 silly lockFile 197bacf4-tar-fs-0-5-2 tar-fs@0.5.2
+510 verbose lock tar-fs@0.5.2 /Users/Lowry/.npm/197bacf4-tar-fs-0-5-2.lock
+511 verbose parsed spec { raw: 'update-notifier@0.2.0',
+511 verbose parsed spec   scope: null,
+511 verbose parsed spec   name: 'update-notifier',
+511 verbose parsed spec   rawSpec: '0.2.0',
+511 verbose parsed spec   spec: '0.2.0',
+511 verbose parsed spec   type: 'version' }
+512 verbose addNamed [ 'update-notifier', '0.2.0' ]
+513 verbose addNamed [ '0.2.0', '0.2.0' ]
+514 silly lockFile 8e5d91fe-update-notifier-0-2-0 update-notifier@0.2.0
+515 verbose lock update-notifier@0.2.0 /Users/Lowry/.npm/8e5d91fe-update-notifier-0-2-0.lock
+516 verbose parsed spec { raw: 'which@~1.0.5',
+516 verbose parsed spec   scope: null,
+516 verbose parsed spec   name: 'which',
+516 verbose parsed spec   rawSpec: '~1.0.5',
+516 verbose parsed spec   spec: '>=1.0.5-0 <1.1.0-0',
+516 verbose parsed spec   type: 'range' }
+517 verbose addNamed [ 'which', '>=1.0.5-0 <1.1.0-0' ]
+518 verbose addNamed [ null, '>=1.0.5-0 <1.1.0-0' ]
+519 silly lockFile 01f80f09-which-1-0-5-0-1-1-0-0 which@>=1.0.5-0 <1.1.0-0
+520 verbose lock which@>=1.0.5-0 <1.1.0-0 /Users/Lowry/.npm/01f80f09-which-1-0-5-0-1-1-0-0.lock
+521 verbose parsed spec { raw: 'abbrev@~1.0.4',
+521 verbose parsed spec   scope: null,
+521 verbose parsed spec   name: 'abbrev',
+521 verbose parsed spec   rawSpec: '~1.0.4',
+521 verbose parsed spec   spec: '>=1.0.4-0 <1.1.0-0',
+521 verbose parsed spec   type: 'range' }
+522 verbose addNamed [ 'abbrev', '>=1.0.4-0 <1.1.0-0' ]
+523 verbose addNamed [ null, '>=1.0.4-0 <1.1.0-0' ]
+524 silly lockFile 83ac0d4d-abbrev-1-0-4-0-1-1-0-0 abbrev@>=1.0.4-0 <1.1.0-0
+525 verbose lock abbrev@>=1.0.4-0 <1.1.0-0 /Users/Lowry/.npm/83ac0d4d-abbrev-1-0-4-0-1-1-0-0.lock
+526 verbose parsed spec { raw: 'archy@0.0.2',
+526 verbose parsed spec   scope: null,
+526 verbose parsed spec   name: 'archy',
+526 verbose parsed spec   rawSpec: '0.0.2',
+526 verbose parsed spec   spec: '0.0.2',
+526 verbose parsed spec   type: 'version' }
+527 verbose addNamed [ 'archy', '0.0.2' ]
+528 verbose addNamed [ '0.0.2', '0.0.2' ]
+529 silly lockFile c97e9070-archy-0-0-2 archy@0.0.2
+530 verbose lock archy@0.0.2 /Users/Lowry/.npm/c97e9070-archy-0-0-2.lock
+531 silly addNameRange { name: 'fstream', range: '>=1.0.2-0 <1.1.0-0', hasData: false }
+532 verbose mapToRegistry name fstream
+533 verbose mapToRegistry uri https://registry.npmjs.org/fstream
+534 silly addNameRange { name: 'handlebars',
+534 silly addNameRange   range: '>=2.0.0-0 <2.1.0-0',
+534 silly addNameRange   hasData: false }
+535 verbose mapToRegistry name handlebars
+536 verbose mapToRegistry uri https://registry.npmjs.org/handlebars
+537 silly addNameRange { name: 'glob', range: '>=4.0.2-0 <4.1.0-0', hasData: false }
+538 verbose mapToRegistry name glob
+539 verbose mapToRegistry uri https://registry.npmjs.org/glob
+540 verbose mapToRegistry name inquirer
+541 verbose mapToRegistry uri https://registry.npmjs.org/inquirer
+542 silly addNameRange { name: 'graceful-fs',
+542 silly addNameRange   range: '>=3.0.1-0 <3.1.0-0',
+542 silly addNameRange   hasData: false }
+543 verbose mapToRegistry name graceful-fs
+544 verbose mapToRegistry uri https://registry.npmjs.org/graceful-fs
+545 silly addNameRange { name: 'lru-cache',
+545 silly addNameRange   range: '>=2.5.0-0 <2.6.0-0',
+545 silly addNameRange   hasData: false }
+546 verbose mapToRegistry name lru-cache
+547 verbose mapToRegistry uri https://registry.npmjs.org/lru-cache
+548 silly addNameRange { name: 'lockfile', range: '>=1.0.0-0 <1.1.0-0', hasData: false }
+549 verbose mapToRegistry name lockfile
+550 verbose mapToRegistry uri https://registry.npmjs.org/lockfile
+551 verbose mapToRegistry name mkdirp
+552 verbose mapToRegistry uri https://registry.npmjs.org/mkdirp
+553 verbose mapToRegistry name insight
+554 verbose mapToRegistry uri https://registry.npmjs.org/insight
+555 silly addNameRange { name: 'junk', range: '>=1.0.0-0 <1.1.0-0', hasData: false }
+556 verbose mapToRegistry name junk
+557 verbose mapToRegistry uri https://registry.npmjs.org/junk
+558 silly addNameRange { name: 'mout', range: '>=0.9.0-0 <0.10.0-0', hasData: false }
+559 verbose mapToRegistry name mout
+560 verbose mapToRegistry uri https://registry.npmjs.org/mout
+561 silly addNameRange { name: 'is-root', range: '>=1.0.0-0 <1.1.0-0', hasData: false }
+562 verbose mapToRegistry name is-root
+563 verbose mapToRegistry uri https://registry.npmjs.org/is-root
+564 verbose request where is /bower-json
+565 verbose request registry https://registry.npmjs.org/
+566 verbose request url raw /bower-json
+567 verbose request url resolving [ 'https://registry.npmjs.org/', './bower-json' ]
+568 verbose request url resolved https://registry.npmjs.org/bower-json
+569 verbose request where is https://registry.npmjs.org/bower-json
+570 verbose request no basic auth needed
+571 info trying registry request attempt 1 at 11:31:21
+572 verbose etag "2M8LKKCWO0TP6WAL7N5M0286"
+573 http GET https://registry.npmjs.org/bower-json
+574 silly addNameRange { name: 'nopt', range: '>=3.0.0-0 <3.1.0-0', hasData: false }
+575 verbose mapToRegistry name nopt
+576 verbose mapToRegistry uri https://registry.npmjs.org/nopt
+577 silly addNameRange { name: 'opn', range: '>=1.0.0-0 <1.1.0-0', hasData: false }
+578 verbose mapToRegistry name opn
+579 verbose mapToRegistry uri https://registry.npmjs.org/opn
+580 verbose mapToRegistry name osenv
+581 verbose mapToRegistry uri https://registry.npmjs.org/osenv
+582 verbose mapToRegistry name p-throttler
+583 verbose mapToRegistry uri https://registry.npmjs.org/p-throttler
+584 silly addNameRange { name: 'q', range: '>=1.0.1-0 <1.1.0-0', hasData: false }
+585 verbose mapToRegistry name q
+586 verbose mapToRegistry uri https://registry.npmjs.org/q
+587 verbose mapToRegistry name promptly
+588 verbose mapToRegistry uri https://registry.npmjs.org/promptly
+589 verbose mapToRegistry name request-progress
+590 verbose mapToRegistry uri https://registry.npmjs.org/request-progress
+591 silly addNameRange { name: 'request',
+591 silly addNameRange   range: '>=2.42.0-0 <2.43.0-0',
+591 silly addNameRange   hasData: false }
+592 verbose mapToRegistry name request
+593 verbose mapToRegistry uri https://registry.npmjs.org/request
+594 verbose mapToRegistry name retry
+595 verbose mapToRegistry uri https://registry.npmjs.org/retry
+596 silly addNameRange { name: 'rimraf', range: '>=2.2.0-0 <2.3.0-0', hasData: false }
+597 verbose mapToRegistry name rimraf
+598 verbose mapToRegistry uri https://registry.npmjs.org/rimraf
+599 verbose request where is /bower-logger
+600 verbose request registry https://registry.npmjs.org/
+601 verbose request url raw /bower-logger
+602 verbose request url resolving [ 'https://registry.npmjs.org/', './bower-logger' ]
+603 verbose request url resolved https://registry.npmjs.org/bower-logger
+604 verbose request where is https://registry.npmjs.org/bower-logger
+605 verbose request no basic auth needed
+606 info trying registry request attempt 1 at 11:31:21
+607 verbose etag "4HSFRCP2LQ938WYCDXLB81IV2"
+608 http GET https://registry.npmjs.org/bower-logger
+609 silly addNameRange { name: 'semver', range: '>=2.3.0-0 <2.4.0-0', hasData: false }
+610 verbose mapToRegistry name semver
+611 verbose mapToRegistry uri https://registry.npmjs.org/semver
+612 silly addNameRange { name: 'shell-quote',
+612 silly addNameRange   range: '>=1.4.1-0 <1.5.0-0',
+612 silly addNameRange   hasData: false }
+613 verbose mapToRegistry name shell-quote
+614 verbose mapToRegistry uri https://registry.npmjs.org/shell-quote
+615 silly addNameRange { name: 'stringify-object',
+615 silly addNameRange   range: '>=1.0.0-0 <1.1.0-0',
+615 silly addNameRange   hasData: false }
+616 verbose mapToRegistry name stringify-object
+617 verbose mapToRegistry uri https://registry.npmjs.org/stringify-object
+618 verbose mapToRegistry name tar-fs
+619 verbose mapToRegistry uri https://registry.npmjs.org/tar-fs
+620 verbose mapToRegistry name tmp
+621 verbose mapToRegistry uri https://registry.npmjs.org/tmp
+622 verbose mapToRegistry name update-notifier
+623 verbose mapToRegistry uri https://registry.npmjs.org/update-notifier
+624 silly addNameRange { name: 'which', range: '>=1.0.5-0 <1.1.0-0', hasData: false }
+625 verbose mapToRegistry name which
+626 verbose mapToRegistry uri https://registry.npmjs.org/which
+627 silly addNameRange { name: 'abbrev', range: '>=1.0.4-0 <1.1.0-0', hasData: false }
+628 verbose mapToRegistry name abbrev
+629 verbose mapToRegistry uri https://registry.npmjs.org/abbrev
+630 verbose mapToRegistry name archy
+631 verbose mapToRegistry uri https://registry.npmjs.org/archy
+632 verbose request where is /tar-fs
+633 verbose request registry https://registry.npmjs.org/
+634 verbose request url raw /tar-fs
+635 verbose request url resolving [ 'https://registry.npmjs.org/', './tar-fs' ]
+636 verbose request url resolved https://registry.npmjs.org/tar-fs
+637 verbose request where is https://registry.npmjs.org/tar-fs
+638 verbose request no basic auth needed
+639 info trying registry request attempt 1 at 11:31:21
+640 http GET https://registry.npmjs.org/tar-fs
+641 verbose request where is /bower-registry-client
+642 verbose request registry https://registry.npmjs.org/
+643 verbose request url raw /bower-registry-client
+644 verbose request url resolving [ 'https://registry.npmjs.org/', './bower-registry-client' ]
+645 verbose request url resolved https://registry.npmjs.org/bower-registry-client
+646 verbose request where is https://registry.npmjs.org/bower-registry-client
+647 verbose request no basic auth needed
+648 info trying registry request attempt 1 at 11:31:21
+649 verbose etag "4BUUV7W2YYJMUZ2TQIHJH6Z8N"
+650 http GET https://registry.npmjs.org/bower-registry-client
+651 verbose request where is /chmodr
+652 verbose request registry https://registry.npmjs.org/
+653 verbose request url raw /chmodr
+654 verbose request url resolving [ 'https://registry.npmjs.org/', './chmodr' ]
+655 verbose request url resolved https://registry.npmjs.org/chmodr
+656 verbose request where is https://registry.npmjs.org/chmodr
+657 verbose request no basic auth needed
+658 info trying registry request attempt 1 at 11:31:21
+659 verbose etag "24U0YBX0NV979YSR2GBOG932V"
+660 http GET https://registry.npmjs.org/chmodr
+661 verbose request where is /cardinal
+662 verbose request registry https://registry.npmjs.org/
+663 verbose request url raw /cardinal
+664 verbose request url resolving [ 'https://registry.npmjs.org/', './cardinal' ]
+665 verbose request url resolved https://registry.npmjs.org/cardinal
+666 verbose request where is https://registry.npmjs.org/cardinal
+667 verbose request no basic auth needed
+668 info trying registry request attempt 1 at 11:31:21
+669 verbose etag "3UXXBLFMB5LS8C4ONEKRGLLL5"
+670 http GET https://registry.npmjs.org/cardinal
+671 verbose request where is /fstream-ignore
+672 verbose request registry https://registry.npmjs.org/
+673 verbose request url raw /fstream-ignore
+674 verbose request url resolving [ 'https://registry.npmjs.org/', './fstream-ignore' ]
+675 verbose request url resolved https://registry.npmjs.org/fstream-ignore
+676 verbose request where is https://registry.npmjs.org/fstream-ignore
+677 verbose request no basic auth needed
+678 info trying registry request attempt 1 at 11:31:21
+679 verbose etag "2C5O0WZJJ1RMHCP8ROHJ6RRTW"
+680 http GET https://registry.npmjs.org/fstream-ignore
+681 verbose request where is /handlebars
+682 verbose request registry https://registry.npmjs.org/
+683 verbose request url raw /handlebars
+684 verbose request url resolving [ 'https://registry.npmjs.org/', './handlebars' ]
+685 verbose request url resolved https://registry.npmjs.org/handlebars
+686 verbose request where is https://registry.npmjs.org/handlebars
+687 verbose request no basic auth needed
+688 info trying registry request attempt 1 at 11:31:21
+689 verbose etag "7QN8D7IBLTNTZ1UALIKB28E7C"
+690 http GET https://registry.npmjs.org/handlebars
+691 verbose request where is /decompress-zip
+692 verbose request registry https://registry.npmjs.org/
+693 verbose request url raw /decompress-zip
+694 verbose request url resolving [ 'https://registry.npmjs.org/', './decompress-zip' ]
+695 verbose request url resolved https://registry.npmjs.org/decompress-zip
+696 verbose request where is https://registry.npmjs.org/decompress-zip
+697 verbose request no basic auth needed
+698 info trying registry request attempt 1 at 11:31:21
+699 verbose etag "44MDX9FFGJGTM90814141BI0Z"
+700 http GET https://registry.npmjs.org/decompress-zip
+701 verbose request where is /glob
+702 verbose request registry https://registry.npmjs.org/
+703 verbose request url raw /glob
+704 verbose request url resolving [ 'https://registry.npmjs.org/', './glob' ]
+705 verbose request url resolved https://registry.npmjs.org/glob
+706 verbose request where is https://registry.npmjs.org/glob
+707 verbose request no basic auth needed
+708 info trying registry request attempt 1 at 11:31:21
+709 verbose etag "3HH5ZXSZKQT09YXXG5MX0QMF6"
+710 http GET https://registry.npmjs.org/glob
+711 verbose request where is /fstream
+712 verbose request registry https://registry.npmjs.org/
+713 verbose request url raw /fstream
+714 verbose request url resolving [ 'https://registry.npmjs.org/', './fstream' ]
+715 verbose request url resolved https://registry.npmjs.org/fstream
+716 verbose request where is https://registry.npmjs.org/fstream
+717 verbose request no basic auth needed
+718 info trying registry request attempt 1 at 11:31:21
+719 verbose etag "CZ6YU1YHV2GUHAL87JPCFH8JN"
+720 http GET https://registry.npmjs.org/fstream
+721 verbose request where is /graceful-fs
+722 verbose request registry https://registry.npmjs.org/
+723 verbose request url raw /graceful-fs
+724 verbose request url resolving [ 'https://registry.npmjs.org/', './graceful-fs' ]
+725 verbose request url resolved https://registry.npmjs.org/graceful-fs
+726 verbose request where is https://registry.npmjs.org/graceful-fs
+727 verbose request no basic auth needed
+728 info trying registry request attempt 1 at 11:31:21
+729 verbose etag "9PV3CKHXC3191HOQIXV2QNLJO"
+730 http GET https://registry.npmjs.org/graceful-fs
+731 verbose request where is /chalk
+732 verbose request registry https://registry.npmjs.org/
+733 verbose request url raw /chalk
+734 verbose request url resolving [ 'https://registry.npmjs.org/', './chalk' ]
+735 verbose request url resolved https://registry.npmjs.org/chalk
+736 verbose request where is https://registry.npmjs.org/chalk
+737 verbose request no basic auth needed
+738 info trying registry request attempt 1 at 11:31:21
+739 verbose etag "7TZVWKF58IER7S85DN0ESJX0R"
+740 http GET https://registry.npmjs.org/chalk
+741 verbose request where is /inquirer
+742 verbose request registry https://registry.npmjs.org/
+743 verbose request url raw /inquirer
+744 verbose request url resolving [ 'https://registry.npmjs.org/', './inquirer' ]
+745 verbose request url resolved https://registry.npmjs.org/inquirer
+746 verbose request where is https://registry.npmjs.org/inquirer
+747 verbose request no basic auth needed
+748 info trying registry request attempt 1 at 11:31:21
+749 verbose etag "8SJJGEF2UWF4MEG8A1IKOMG3L"
+750 http GET https://registry.npmjs.org/inquirer
+751 verbose request where is /lockfile
+752 verbose request registry https://registry.npmjs.org/
+753 verbose request url raw /lockfile
+754 verbose request url resolving [ 'https://registry.npmjs.org/', './lockfile' ]
+755 verbose request url resolved https://registry.npmjs.org/lockfile
+756 verbose request where is https://registry.npmjs.org/lockfile
+757 verbose request no basic auth needed
+758 info trying registry request attempt 1 at 11:31:21
+759 verbose etag "ALPQII7NS5MMULUD0MQ1T9EQ4"
+760 http GET https://registry.npmjs.org/lockfile
+761 verbose request where is /insight
+762 verbose request registry https://registry.npmjs.org/
+763 verbose request url raw /insight
+764 verbose request url resolving [ 'https://registry.npmjs.org/', './insight' ]
+765 verbose request url resolved https://registry.npmjs.org/insight
+766 verbose request where is https://registry.npmjs.org/insight
+767 verbose request no basic auth needed
+768 info trying registry request attempt 1 at 11:31:21
+769 verbose etag "AJD3D5NTE2I1L3NTU496536MQ"
+770 http GET https://registry.npmjs.org/insight
+771 verbose request where is /mout
+772 verbose request registry https://registry.npmjs.org/
+773 verbose request url raw /mout
+774 verbose request url resolving [ 'https://registry.npmjs.org/', './mout' ]
+775 verbose request url resolved https://registry.npmjs.org/mout
+776 verbose request where is https://registry.npmjs.org/mout
+777 verbose request no basic auth needed
+778 info trying registry request attempt 1 at 11:31:21
+779 verbose etag "3DNH4LGW7WBPJCBO1OGL263ZG"
+780 http GET https://registry.npmjs.org/mout
+781 verbose request where is /junk
+782 verbose request registry https://registry.npmjs.org/
+783 verbose request url raw /junk
+784 verbose request url resolving [ 'https://registry.npmjs.org/', './junk' ]
+785 verbose request url resolved https://registry.npmjs.org/junk
+786 verbose request where is https://registry.npmjs.org/junk
+787 verbose request no basic auth needed
+788 info trying registry request attempt 1 at 11:31:21
+789 verbose etag "7DUV3SCVLNBELO0WNH4WLU83V"
+790 http GET https://registry.npmjs.org/junk
+791 verbose request where is /is-root
+792 verbose request registry https://registry.npmjs.org/
+793 verbose request url raw /is-root
+794 verbose request url resolving [ 'https://registry.npmjs.org/', './is-root' ]
+795 verbose request url resolved https://registry.npmjs.org/is-root
+796 verbose request where is https://registry.npmjs.org/is-root
+797 verbose request no basic auth needed
+798 info trying registry request attempt 1 at 11:31:21
+799 verbose etag "BZM8C9E2CGQ8MCJGUN6FK4NCC"
+800 http GET https://registry.npmjs.org/is-root
+801 verbose request where is /lru-cache
+802 verbose request registry https://registry.npmjs.org/
+803 verbose request url raw /lru-cache
+804 verbose request url resolving [ 'https://registry.npmjs.org/', './lru-cache' ]
+805 verbose request url resolved https://registry.npmjs.org/lru-cache
+806 verbose request where is https://registry.npmjs.org/lru-cache
+807 verbose request no basic auth needed
+808 info trying registry request attempt 1 at 11:31:21
+809 verbose etag "1YCHIO6QBU94HU2SWIDBU93CX"
+810 http GET https://registry.npmjs.org/lru-cache
+811 verbose request where is /nopt
+812 verbose request registry https://registry.npmjs.org/
+813 verbose request url raw /nopt
+814 verbose request url resolving [ 'https://registry.npmjs.org/', './nopt' ]
+815 verbose request url resolved https://registry.npmjs.org/nopt
+816 verbose request where is https://registry.npmjs.org/nopt
+817 verbose request no basic auth needed
+818 info trying registry request attempt 1 at 11:31:21
+819 verbose etag "2GWKPD9CYD6ZLDZ9J2A2BHFGO"
+820 http GET https://registry.npmjs.org/nopt
+821 verbose request where is /p-throttler
+822 verbose request registry https://registry.npmjs.org/
+823 verbose request url raw /p-throttler
+824 verbose request url resolving [ 'https://registry.npmjs.org/', './p-throttler' ]
+825 verbose request url resolved https://registry.npmjs.org/p-throttler
+826 verbose request where is https://registry.npmjs.org/p-throttler
+827 verbose request no basic auth needed
+828 info trying registry request attempt 1 at 11:31:21
+829 verbose etag "AU641VUJ7179JY09IUI7THIA6"
+830 http GET https://registry.npmjs.org/p-throttler
+831 verbose request where is /osenv
+832 verbose request registry https://registry.npmjs.org/
+833 verbose request url raw /osenv
+834 verbose request url resolving [ 'https://registry.npmjs.org/', './osenv' ]
+835 verbose request url resolved https://registry.npmjs.org/osenv
+836 verbose request where is https://registry.npmjs.org/osenv
+837 verbose request no basic auth needed
+838 info trying registry request attempt 1 at 11:31:21
+839 verbose etag "58WR8WSJGT3BDP62LW25BZI7O"
+840 http GET https://registry.npmjs.org/osenv
+841 verbose request where is /promptly
+842 verbose request registry https://registry.npmjs.org/
+843 verbose request url raw /promptly
+844 verbose request url resolving [ 'https://registry.npmjs.org/', './promptly' ]
+845 verbose request url resolved https://registry.npmjs.org/promptly
+846 verbose request where is https://registry.npmjs.org/promptly
+847 verbose request no basic auth needed
+848 info trying registry request attempt 1 at 11:31:21
+849 verbose etag "82A7FYCK8KM5Q7AQN39T8X4TB"
+850 http GET https://registry.npmjs.org/promptly
+851 verbose request where is /request-progress
+852 verbose request registry https://registry.npmjs.org/
+853 verbose request url raw /request-progress
+854 verbose request url resolving [ 'https://registry.npmjs.org/', './request-progress' ]
+855 verbose request url resolved https://registry.npmjs.org/request-progress
+856 verbose request where is https://registry.npmjs.org/request-progress
+857 verbose request no basic auth needed
+858 info trying registry request attempt 1 at 11:31:21
+859 verbose etag "B88PH1RS5POG6U7T8DJ4EQGHH"
+860 http GET https://registry.npmjs.org/request-progress
+861 verbose request where is /mkdirp
+862 verbose request registry https://registry.npmjs.org/
+863 verbose request url raw /mkdirp
+864 verbose request url resolving [ 'https://registry.npmjs.org/', './mkdirp' ]
+865 verbose request url resolved https://registry.npmjs.org/mkdirp
+866 verbose request where is https://registry.npmjs.org/mkdirp
+867 verbose request no basic auth needed
+868 info trying registry request attempt 1 at 11:31:21
+869 verbose etag "EX7OC1GRA0A9TYJRE9RXASM1I"
+870 http GET https://registry.npmjs.org/mkdirp
+871 verbose request where is /retry
+872 verbose request registry https://registry.npmjs.org/
+873 verbose request url raw /retry
+874 verbose request url resolving [ 'https://registry.npmjs.org/', './retry' ]
+875 verbose request url resolved https://registry.npmjs.org/retry
+876 verbose request where is https://registry.npmjs.org/retry
+877 verbose request no basic auth needed
+878 info trying registry request attempt 1 at 11:31:21
+879 verbose etag "W6FYD6VA40GILUN1N7R3I4KA"
+880 http GET https://registry.npmjs.org/retry
+881 verbose request where is /opn
+882 verbose request registry https://registry.npmjs.org/
+883 verbose request url raw /opn
+884 verbose request url resolving [ 'https://registry.npmjs.org/', './opn' ]
+885 verbose request url resolved https://registry.npmjs.org/opn
+886 verbose request where is https://registry.npmjs.org/opn
+887 verbose request no basic auth needed
+888 info trying registry request attempt 1 at 11:31:21
+889 verbose etag "327XO7ZPGBUJQMPBJVNQHCROT"
+890 http GET https://registry.npmjs.org/opn
+891 verbose request where is /q
+892 verbose request registry https://registry.npmjs.org/
+893 verbose request url raw /q
+894 verbose request url resolving [ 'https://registry.npmjs.org/', './q' ]
+895 verbose request url resolved https://registry.npmjs.org/q
+896 verbose request where is https://registry.npmjs.org/q
+897 verbose request no basic auth needed
+898 info trying registry request attempt 1 at 11:31:21
+899 verbose etag "CWBZY9D41EX90T0GJ1MJYM33R"
+900 http GET https://registry.npmjs.org/q
+901 verbose request where is /request
+902 verbose request registry https://registry.npmjs.org/
+903 verbose request url raw /request
+904 verbose request url resolving [ 'https://registry.npmjs.org/', './request' ]
+905 verbose request url resolved https://registry.npmjs.org/request
+906 verbose request where is https://registry.npmjs.org/request
+907 verbose request no basic auth needed
+908 info trying registry request attempt 1 at 11:31:21
+909 verbose etag "EG63G7Z36IXWK5NHWBIEA81QU"
+910 http GET https://registry.npmjs.org/request
+911 verbose request where is /shell-quote
+912 verbose request registry https://registry.npmjs.org/
+913 verbose request url raw /shell-quote
+914 verbose request url resolving [ 'https://registry.npmjs.org/', './shell-quote' ]
+915 verbose request url resolved https://registry.npmjs.org/shell-quote
+916 verbose request where is https://registry.npmjs.org/shell-quote
+917 verbose request no basic auth needed
+918 info trying registry request attempt 1 at 11:31:21
+919 verbose etag "5J7EU09FFHFJWL7ZXQK8FN0JE"
+920 http GET https://registry.npmjs.org/shell-quote
+921 verbose request where is /stringify-object
+922 verbose request registry https://registry.npmjs.org/
+923 verbose request url raw /stringify-object
+924 verbose request url resolving [ 'https://registry.npmjs.org/', './stringify-object' ]
+925 verbose request url resolved https://registry.npmjs.org/stringify-object
+926 verbose request where is https://registry.npmjs.org/stringify-object
+927 verbose request no basic auth needed
+928 info trying registry request attempt 1 at 11:31:21
+929 verbose etag "ABFBMSUA64XPVBD5RISSHOG6D"
+930 http GET https://registry.npmjs.org/stringify-object
+931 verbose request where is /semver
+932 verbose request registry https://registry.npmjs.org/
+933 verbose request url raw /semver
+934 verbose request url resolving [ 'https://registry.npmjs.org/', './semver' ]
+935 verbose request url resolved https://registry.npmjs.org/semver
+936 verbose request where is https://registry.npmjs.org/semver
+937 verbose request no basic auth needed
+938 info trying registry request attempt 1 at 11:31:21
+939 verbose etag "2AJPHH1ZUFIWJ21LNZHFVGTWC"
+940 http GET https://registry.npmjs.org/semver
+941 verbose request where is /rimraf
+942 verbose request registry https://registry.npmjs.org/
+943 verbose request url raw /rimraf
+944 verbose request url resolving [ 'https://registry.npmjs.org/', './rimraf' ]
+945 verbose request url resolved https://registry.npmjs.org/rimraf
+946 verbose request where is https://registry.npmjs.org/rimraf
+947 verbose request no basic auth needed
+948 info trying registry request attempt 1 at 11:31:21
+949 verbose etag "8X2NFFGY1QUAF1POI905M0TNR"
+950 http GET https://registry.npmjs.org/rimraf
+951 verbose request where is /which
+952 verbose request registry https://registry.npmjs.org/
+953 verbose request url raw /which
+954 verbose request url resolving [ 'https://registry.npmjs.org/', './which' ]
+955 verbose request url resolved https://registry.npmjs.org/which
+956 verbose request where is https://registry.npmjs.org/which
+957 verbose request no basic auth needed
+958 info trying registry request attempt 1 at 11:31:21
+959 verbose etag "AHUYULHADBJ8IK1PZB46SU6I"
+960 http GET https://registry.npmjs.org/which
+961 verbose request where is /tmp
+962 verbose request registry https://registry.npmjs.org/
+963 verbose request url raw /tmp
+964 verbose request url resolving [ 'https://registry.npmjs.org/', './tmp' ]
+965 verbose request url resolved https://registry.npmjs.org/tmp
+966 verbose request where is https://registry.npmjs.org/tmp
+967 verbose request no basic auth needed
+968 info trying registry request attempt 1 at 11:31:21
+969 verbose etag "51XVMRPL3F9C76S888M8OU2TL"
+970 http GET https://registry.npmjs.org/tmp
+971 verbose request where is /update-notifier
+972 verbose request registry https://registry.npmjs.org/
+973 verbose request url raw /update-notifier
+974 verbose request url resolving [ 'https://registry.npmjs.org/', './update-notifier' ]
+975 verbose request url resolved https://registry.npmjs.org/update-notifier
+976 verbose request where is https://registry.npmjs.org/update-notifier
+977 verbose request no basic auth needed
+978 info trying registry request attempt 1 at 11:31:21
+979 verbose etag "3GW86NM1UOF574NW2UYXHXBAB"
+980 http GET https://registry.npmjs.org/update-notifier
+981 verbose request where is /archy
+982 verbose request registry https://registry.npmjs.org/
+983 verbose request url raw /archy
+984 verbose request url resolving [ 'https://registry.npmjs.org/', './archy' ]
+985 verbose request url resolved https://registry.npmjs.org/archy
+986 verbose request where is https://registry.npmjs.org/archy
+987 verbose request no basic auth needed
+988 info trying registry request attempt 1 at 11:31:21
+989 verbose etag "C05NM4MN3GJJJP1FJRCGJVQQ4"
+990 http GET https://registry.npmjs.org/archy
+991 verbose request where is /abbrev
+992 verbose request registry https://registry.npmjs.org/
+993 verbose request url raw /abbrev
+994 verbose request url resolving [ 'https://registry.npmjs.org/', './abbrev' ]
+995 verbose request url resolved https://registry.npmjs.org/abbrev
+996 verbose request where is https://registry.npmjs.org/abbrev
+997 verbose request no basic auth needed
+998 info trying registry request attempt 1 at 11:31:21
+999 verbose etag "D7EFU937SJBVELE2XOSSZEJ6S"
+1000 http GET https://registry.npmjs.org/abbrev
+1001 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+1002 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+1003 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+1004 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+1005 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+1006 info trying registry request attempt 2 at 11:32:46
+1007 verbose etag "C3ZWYW4U1ZCZE5JOMIEVTAV15"
+1008 http GET https://registry.npmjs.org/bower-config
+1009 info trying registry request attempt 2 at 11:32:46
+1010 verbose etag "2M8LKKCWO0TP6WAL7N5M0286"
+1011 http GET https://registry.npmjs.org/bower-json
+1012 info trying registry request attempt 2 at 11:32:46
+1013 verbose etag "4HSFRCP2LQ938WYCDXLB81IV2"
+1014 http GET https://registry.npmjs.org/bower-logger
+1015 info trying registry request attempt 2 at 11:32:46
+1016 verbose etag "9QJXAYLLIG5CBD5BXX4EXSHAX"
+1017 http GET https://registry.npmjs.org/bower-endpoint-parser
+1018 info trying registry request attempt 2 at 11:32:46
+1019 http GET https://registry.npmjs.org/tar-fs
+1020 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+1021 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+1022 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+1023 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+1024 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+1025 info trying registry request attempt 2 at 11:34:02
+1026 verbose etag "24U0YBX0NV979YSR2GBOG932V"
+1027 http GET https://registry.npmjs.org/chmodr
+1028 info trying registry request attempt 2 at 11:34:02
+1029 verbose etag "3UXXBLFMB5LS8C4ONEKRGLLL5"
+1030 http GET https://registry.npmjs.org/cardinal
+1031 info trying registry request attempt 2 at 11:34:02
+1032 verbose etag "2C5O0WZJJ1RMHCP8ROHJ6RRTW"
+1033 http GET https://registry.npmjs.org/fstream-ignore
+1034 info trying registry request attempt 2 at 11:34:02
+1035 verbose etag "7QN8D7IBLTNTZ1UALIKB28E7C"
+1036 http GET https://registry.npmjs.org/handlebars
+1037 info trying registry request attempt 2 at 11:34:02
+1038 verbose etag "4BUUV7W2YYJMUZ2TQIHJH6Z8N"
+1039 http GET https://registry.npmjs.org/bower-registry-client
+1040 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+1041 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+1042 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+1043 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+1044 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+1045 info trying registry request attempt 2 at 11:35:18
+1046 verbose etag "3HH5ZXSZKQT09YXXG5MX0QMF6"
+1047 http GET https://registry.npmjs.org/glob
+1048 info trying registry request attempt 2 at 11:35:18
+1049 verbose etag "9PV3CKHXC3191HOQIXV2QNLJO"
+1050 http GET https://registry.npmjs.org/graceful-fs
+1051 info trying registry request attempt 2 at 11:35:18
+1052 verbose etag "CZ6YU1YHV2GUHAL87JPCFH8JN"
+1053 http GET https://registry.npmjs.org/fstream
+1054 info trying registry request attempt 2 at 11:35:18
+1055 verbose etag "7TZVWKF58IER7S85DN0ESJX0R"
+1056 http GET https://registry.npmjs.org/chalk
+1057 info trying registry request attempt 2 at 11:35:18
+1058 verbose etag "44MDX9FFGJGTM90814141BI0Z"
+1059 http GET https://registry.npmjs.org/decompress-zip
+1060 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+1061 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+1062 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+1063 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+1064 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+1065 info trying registry request attempt 2 at 11:36:33
+1066 verbose etag "3DNH4LGW7WBPJCBO1OGL263ZG"
+1067 http GET https://registry.npmjs.org/mout
+1068 info trying registry request attempt 2 at 11:36:33
+1069 verbose etag "AJD3D5NTE2I1L3NTU496536MQ"
+1070 http GET https://registry.npmjs.org/insight
+1071 info trying registry request attempt 2 at 11:36:33
+1072 verbose etag "7DUV3SCVLNBELO0WNH4WLU83V"
+1073 http GET https://registry.npmjs.org/junk
+1074 info trying registry request attempt 2 at 11:36:33
+1075 verbose etag "8SJJGEF2UWF4MEG8A1IKOMG3L"
+1076 http GET https://registry.npmjs.org/inquirer
+1077 info trying registry request attempt 2 at 11:36:33
+1078 verbose etag "ALPQII7NS5MMULUD0MQ1T9EQ4"
+1079 http GET https://registry.npmjs.org/lockfile
+1080 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+1081 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+1082 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+1083 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+1084 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+1085 info trying registry request attempt 2 at 11:37:49
+1086 verbose etag "2GWKPD9CYD6ZLDZ9J2A2BHFGO"
+1087 http GET https://registry.npmjs.org/nopt
+1088 info trying registry request attempt 2 at 11:37:49
+1089 verbose etag "1YCHIO6QBU94HU2SWIDBU93CX"
+1090 http GET https://registry.npmjs.org/lru-cache
+1091 info trying registry request attempt 2 at 11:37:49
+1092 verbose etag "AU641VUJ7179JY09IUI7THIA6"
+1093 http GET https://registry.npmjs.org/p-throttler
+1094 info trying registry request attempt 2 at 11:37:49
+1095 verbose etag "58WR8WSJGT3BDP62LW25BZI7O"
+1096 http GET https://registry.npmjs.org/osenv
+1097 info trying registry request attempt 2 at 11:37:49
+1098 verbose etag "BZM8C9E2CGQ8MCJGUN6FK4NCC"
+1099 http GET https://registry.npmjs.org/is-root
+1100 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+1101 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+1102 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+1103 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+1104 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+1105 info trying registry request attempt 2 at 11:39:04
+1106 verbose etag "B88PH1RS5POG6U7T8DJ4EQGHH"
+1107 http GET https://registry.npmjs.org/request-progress
+1108 info trying registry request attempt 2 at 11:39:04
+1109 verbose etag "W6FYD6VA40GILUN1N7R3I4KA"
+1110 http GET https://registry.npmjs.org/retry
+1111 info trying registry request attempt 2 at 11:39:04
+1112 verbose etag "327XO7ZPGBUJQMPBJVNQHCROT"
+1113 http GET https://registry.npmjs.org/opn
+1114 info trying registry request attempt 2 at 11:39:04
+1115 verbose etag "82A7FYCK8KM5Q7AQN39T8X4TB"
+1116 http GET https://registry.npmjs.org/promptly
+1117 info trying registry request attempt 2 at 11:39:04
+1118 verbose etag "EX7OC1GRA0A9TYJRE9RXASM1I"
+1119 http GET https://registry.npmjs.org/mkdirp
+1120 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+1121 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+1122 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+1123 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+1124 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+1125 info trying registry request attempt 2 at 11:40:20
+1126 verbose etag "CWBZY9D41EX90T0GJ1MJYM33R"
+1127 http GET https://registry.npmjs.org/q
+1128 info trying registry request attempt 2 at 11:40:20
+1129 verbose etag "ABFBMSUA64XPVBD5RISSHOG6D"
+1130 http GET https://registry.npmjs.org/stringify-object
+1131 info trying registry request attempt 2 at 11:40:20
+1132 verbose etag "EG63G7Z36IXWK5NHWBIEA81QU"
+1133 http GET https://registry.npmjs.org/request
+1134 info trying registry request attempt 2 at 11:40:20
+1135 verbose etag "5J7EU09FFHFJWL7ZXQK8FN0JE"
+1136 http GET https://registry.npmjs.org/shell-quote
+1137 info trying registry request attempt 2 at 11:40:20
+1138 verbose etag "2AJPHH1ZUFIWJ21LNZHFVGTWC"
+1139 http GET https://registry.npmjs.org/semver
+1140 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+1141 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+1142 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+1143 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+1144 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+1145 info trying registry request attempt 2 at 11:41:36
+1146 verbose etag "AHUYULHADBJ8IK1PZB46SU6I"
+1147 http GET https://registry.npmjs.org/which
+1148 info trying registry request attempt 2 at 11:41:36
+1149 verbose etag "51XVMRPL3F9C76S888M8OU2TL"
+1150 http GET https://registry.npmjs.org/tmp
+1151 info trying registry request attempt 2 at 11:41:36
+1152 verbose etag "3GW86NM1UOF574NW2UYXHXBAB"
+1153 http GET https://registry.npmjs.org/update-notifier
+1154 info trying registry request attempt 2 at 11:41:36
+1155 verbose etag "C05NM4MN3GJJJP1FJRCGJVQQ4"
+1156 http GET https://registry.npmjs.org/archy
+1157 info trying registry request attempt 2 at 11:41:36
+1158 verbose etag "8X2NFFGY1QUAF1POI905M0TNR"
+1159 http GET https://registry.npmjs.org/rimraf
+1160 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+1161 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+1162 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+1163 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+1164 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+1165 info trying registry request attempt 2 at 11:42:51
+1166 verbose etag "D7EFU937SJBVELE2XOSSZEJ6S"
+1167 http GET https://registry.npmjs.org/abbrev
+1168 info trying registry request attempt 3 at 11:43:41
+1169 verbose etag "2M8LKKCWO0TP6WAL7N5M0286"
+1170 http GET https://registry.npmjs.org/bower-json
+1171 info trying registry request attempt 3 at 11:43:41
+1172 verbose etag "4HSFRCP2LQ938WYCDXLB81IV2"
+1173 http GET https://registry.npmjs.org/bower-logger
+1174 info trying registry request attempt 3 at 11:43:41
+1175 verbose etag "9QJXAYLLIG5CBD5BXX4EXSHAX"
+1176 http GET https://registry.npmjs.org/bower-endpoint-parser
+1177 info trying registry request attempt 3 at 11:43:41
+1178 verbose etag "C3ZWYW4U1ZCZE5JOMIEVTAV15"
+1179 http GET https://registry.npmjs.org/bower-config
+1180 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+1181 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+1182 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+1183 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+1184 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+1185 info trying registry request attempt 3 at 11:44:56
+1186 verbose etag "2C5O0WZJJ1RMHCP8ROHJ6RRTW"
+1187 http GET https://registry.npmjs.org/fstream-ignore
+1188 info trying registry request attempt 3 at 11:44:56
+1189 verbose etag "24U0YBX0NV979YSR2GBOG932V"
+1190 http GET https://registry.npmjs.org/chmodr
+1191 info trying registry request attempt 3 at 11:44:56
+1192 verbose etag "3UXXBLFMB5LS8C4ONEKRGLLL5"
+1193 http GET https://registry.npmjs.org/cardinal
+1194 info trying registry request attempt 3 at 11:44:56
+1195 verbose etag "7QN8D7IBLTNTZ1UALIKB28E7C"
+1196 http GET https://registry.npmjs.org/handlebars
+1197 info trying registry request attempt 3 at 11:44:56
+1198 http GET https://registry.npmjs.org/tar-fs
+1199 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+1200 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+1201 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+1202 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+1203 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+1204 info trying registry request attempt 3 at 11:46:12
+1205 verbose etag "9PV3CKHXC3191HOQIXV2QNLJO"
+1206 http GET https://registry.npmjs.org/graceful-fs
+1207 info trying registry request attempt 3 at 11:46:12
+1208 verbose etag "3HH5ZXSZKQT09YXXG5MX0QMF6"
+1209 http GET https://registry.npmjs.org/glob
+1210 info trying registry request attempt 3 at 11:46:12
+1211 verbose etag "CZ6YU1YHV2GUHAL87JPCFH8JN"
+1212 http GET https://registry.npmjs.org/fstream
+1213 info trying registry request attempt 3 at 11:46:12
+1214 verbose etag "7TZVWKF58IER7S85DN0ESJX0R"
+1215 http GET https://registry.npmjs.org/chalk
+1216 info trying registry request attempt 3 at 11:46:12
+1217 verbose etag "4BUUV7W2YYJMUZ2TQIHJH6Z8N"
+1218 http GET https://registry.npmjs.org/bower-registry-client
+1219 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+1220 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+1221 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+1222 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+1223 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+1224 info trying registry request attempt 3 at 11:47:28
+1225 verbose etag "3DNH4LGW7WBPJCBO1OGL263ZG"
+1226 http GET https://registry.npmjs.org/mout
+1227 info trying registry request attempt 3 at 11:47:28
+1228 verbose etag "AJD3D5NTE2I1L3NTU496536MQ"
+1229 http GET https://registry.npmjs.org/insight
+1230 info trying registry request attempt 3 at 11:47:28
+1231 verbose etag "7DUV3SCVLNBELO0WNH4WLU83V"
+1232 http GET https://registry.npmjs.org/junk
+1233 info trying registry request attempt 3 at 11:47:28
+1234 verbose etag "8SJJGEF2UWF4MEG8A1IKOMG3L"
+1235 http GET https://registry.npmjs.org/inquirer
+1236 info trying registry request attempt 3 at 11:47:28
+1237 verbose etag "44MDX9FFGJGTM90814141BI0Z"
+1238 http GET https://registry.npmjs.org/decompress-zip
+1239 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+1240 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+1241 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+1242 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+1243 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+1244 info trying registry request attempt 3 at 11:48:43
+1245 verbose etag "ALPQII7NS5MMULUD0MQ1T9EQ4"
+1246 http GET https://registry.npmjs.org/lockfile
+1247 info trying registry request attempt 3 at 11:48:43
+1248 verbose etag "AU641VUJ7179JY09IUI7THIA6"
+1249 http GET https://registry.npmjs.org/p-throttler
+1250 info trying registry request attempt 3 at 11:48:43
+1251 verbose etag "2GWKPD9CYD6ZLDZ9J2A2BHFGO"
+1252 http GET https://registry.npmjs.org/nopt
+1253 info trying registry request attempt 3 at 11:48:43
+1254 verbose etag "1YCHIO6QBU94HU2SWIDBU93CX"
+1255 http GET https://registry.npmjs.org/lru-cache
+1256 info trying registry request attempt 3 at 11:48:43
+1257 verbose etag "58WR8WSJGT3BDP62LW25BZI7O"
+1258 http GET https://registry.npmjs.org/osenv
+1259 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+1260 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+1261 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+1262 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+1263 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+1264 info trying registry request attempt 3 at 11:49:59
+1265 verbose etag "327XO7ZPGBUJQMPBJVNQHCROT"
+1266 http GET https://registry.npmjs.org/opn
+1267 info trying registry request attempt 3 at 11:49:59
+1268 verbose etag "B88PH1RS5POG6U7T8DJ4EQGHH"
+1269 http GET https://registry.npmjs.org/request-progress
+1270 info trying registry request attempt 3 at 11:49:59
+1271 verbose etag "W6FYD6VA40GILUN1N7R3I4KA"
+1272 http GET https://registry.npmjs.org/retry
+1273 info trying registry request attempt 3 at 11:49:59
+1274 verbose etag "82A7FYCK8KM5Q7AQN39T8X4TB"
+1275 http GET https://registry.npmjs.org/promptly
+1276 info trying registry request attempt 3 at 11:49:59
+1277 verbose etag "BZM8C9E2CGQ8MCJGUN6FK4NCC"
+1278 http GET https://registry.npmjs.org/is-root
+1279 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+1280 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+1281 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+1282 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+1283 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+1284 info trying registry request attempt 3 at 11:51:14
+1285 verbose etag "EG63G7Z36IXWK5NHWBIEA81QU"
+1286 http GET https://registry.npmjs.org/request
+1287 info trying registry request attempt 3 at 11:51:14
+1288 verbose etag "5J7EU09FFHFJWL7ZXQK8FN0JE"
+1289 http GET https://registry.npmjs.org/shell-quote
+1290 info trying registry request attempt 3 at 11:51:14
+1291 verbose etag "EX7OC1GRA0A9TYJRE9RXASM1I"
+1292 http GET https://registry.npmjs.org/mkdirp
+1293 info trying registry request attempt 3 at 11:51:14
+1294 verbose etag "CWBZY9D41EX90T0GJ1MJYM33R"
+1295 http GET https://registry.npmjs.org/q
+1296 info trying registry request attempt 3 at 11:51:14
+1297 verbose etag "ABFBMSUA64XPVBD5RISSHOG6D"
+1298 http GET https://registry.npmjs.org/stringify-object
+1299 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+1300 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+1301 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+1302 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+1303 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+1304 info trying registry request attempt 3 at 11:52:30
+1305 verbose etag "AHUYULHADBJ8IK1PZB46SU6I"
+1306 http GET https://registry.npmjs.org/which
+1307 info trying registry request attempt 3 at 11:52:30
+1308 verbose etag "51XVMRPL3F9C76S888M8OU2TL"
+1309 http GET https://registry.npmjs.org/tmp
+1310 info trying registry request attempt 3 at 11:52:30
+1311 verbose etag "3GW86NM1UOF574NW2UYXHXBAB"
+1312 http GET https://registry.npmjs.org/update-notifier
+1313 info trying registry request attempt 3 at 11:52:30
+1314 verbose etag "C05NM4MN3GJJJP1FJRCGJVQQ4"
+1315 http GET https://registry.npmjs.org/archy
+1316 info trying registry request attempt 3 at 11:52:30
+1317 verbose etag "2AJPHH1ZUFIWJ21LNZHFVGTWC"
+1318 http GET https://registry.npmjs.org/semver
+1319 silly registry.get cb [ 304, undefined ]
+1320 verbose etag https://registry.npmjs.org/bower-logger from cache
+1321 silly registry.get cb [ 304, undefined ]
+1322 verbose etag https://registry.npmjs.org/bower-json from cache
+1323 silly registry.get cb [ 304, undefined ]
+1324 verbose etag https://registry.npmjs.org/bower-endpoint-parser from cache
+1325 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+1326 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+1327 silly addNameRange number 2 { name: 'bower-json',
+1327 silly addNameRange   range: '>=0.4.0-0 <0.5.0-0',
+1327 silly addNameRange   hasData: true }
+1328 silly addNameRange versions [ 'bower-json', [ '0.1.0-rc.1', '0.2.0', '0.3.0', '0.4.0' ] ]
+1329 verbose addNamed [ 'bower-json', '0.4.0' ]
+1330 verbose addNamed [ '0.4.0', '0.4.0' ]
+1331 silly lockFile d39b341c-bower-json-0-4-0 bower-json@0.4.0
+1332 verbose lock bower-json@0.4.0 /Users/Lowry/.npm/d39b341c-bower-json-0-4-0.lock
+1333 silly addNameRange number 2 { name: 'bower-logger',
+1333 silly addNameRange   range: '>=0.2.2-0 <0.3.0-0',
+1333 silly addNameRange   hasData: true }
+1334 silly addNameRange versions [ 'bower-logger',
+1334 silly addNameRange   [ '0.1.0-rc.1', '0.1.0', '0.2.0', '0.2.1', '0.2.2' ] ]
+1335 verbose addNamed [ 'bower-logger', '0.2.2' ]
+1336 verbose addNamed [ '0.2.2', '0.2.2' ]
+1337 silly lockFile 4a38f198-bower-logger-0-2-2 bower-logger@0.2.2
+1338 verbose lock bower-logger@0.2.2 /Users/Lowry/.npm/4a38f198-bower-logger-0-2-2.lock
+1339 silly addNameRange number 2 { name: 'bower-endpoint-parser',
+1339 silly addNameRange   range: '>=0.2.2-0 <0.3.0-0',
+1339 silly addNameRange   hasData: true }
+1340 silly addNameRange versions [ 'bower-endpoint-parser',
+1340 silly addNameRange   [ '0.1.0-rc.1', '0.1.0', '0.2.0', '0.2.1', '0.2.2' ] ]
+1341 verbose addNamed [ 'bower-endpoint-parser', '0.2.2' ]
+1342 verbose addNamed [ '0.2.2', '0.2.2' ]
+1343 silly lockFile b3d72336-bower-endpoint-parser-0-2-2 bower-endpoint-parser@0.2.2
+1344 verbose lock bower-endpoint-parser@0.2.2 /Users/Lowry/.npm/b3d72336-bower-endpoint-parser-0-2-2.lock
+1345 silly lockFile 4a38f198-bower-logger-0-2-2 bower-logger@0.2.2
+1346 silly lockFile 4a38f198-bower-logger-0-2-2 bower-logger@0.2.2
+1347 silly lockFile d39b341c-bower-json-0-4-0 bower-json@0.4.0
+1348 silly lockFile d39b341c-bower-json-0-4-0 bower-json@0.4.0
+1349 silly lockFile cd2c0c71-bower-logger-0-2-2-0-0-3-0-0 bower-logger@>=0.2.2-0 <0.3.0-0
+1350 silly lockFile cd2c0c71-bower-logger-0-2-2-0-0-3-0-0 bower-logger@>=0.2.2-0 <0.3.0-0
+1351 silly lockFile 3992f7ce-bower-json-0-4-0-0-0-5-0-0 bower-json@>=0.4.0-0 <0.5.0-0
+1352 silly lockFile 3992f7ce-bower-json-0-4-0-0-0-5-0-0 bower-json@>=0.4.0-0 <0.5.0-0
+1353 silly lockFile b3d72336-bower-endpoint-parser-0-2-2 bower-endpoint-parser@0.2.2
+1354 silly lockFile b3d72336-bower-endpoint-parser-0-2-2 bower-endpoint-parser@0.2.2
+1355 silly lockFile c12b5b94--endpoint-parser-0-2-2-0-0-3-0-0 bower-endpoint-parser@>=0.2.2-0 <0.3.0-0
+1356 silly lockFile c12b5b94--endpoint-parser-0-2-2-0-0-3-0-0 bower-endpoint-parser@>=0.2.2-0 <0.3.0-0
+1357 info trying registry request attempt 3 at 11:53:46
+1358 verbose etag "8X2NFFGY1QUAF1POI905M0TNR"
+1359 http GET https://registry.npmjs.org/rimraf
+1360 info trying registry request attempt 3 at 11:53:46
+1361 verbose etag "D7EFU937SJBVELE2XOSSZEJ6S"
+1362 http GET https://registry.npmjs.org/abbrev
+1363 silly registry.get cb [ 304, undefined ]
+1364 verbose etag https://registry.npmjs.org/fstream-ignore from cache
+1365 silly registry.get cb [ 304, undefined ]
+1366 verbose etag https://registry.npmjs.org/chmodr from cache
+1367 silly registry.get cb [ 304, undefined ]
+1368 verbose etag https://registry.npmjs.org/cardinal from cache
+1369 silly registry.get cb [ 304, undefined ]
+1370 verbose etag https://registry.npmjs.org/handlebars from cache
+1371 silly registry.get cb [ 304, undefined ]
+1372 verbose etag https://registry.npmjs.org/bower-config from cache
+1373 silly addNameRange number 2 { name: 'handlebars',
+1373 silly addNameRange   range: '>=2.0.0-0 <2.1.0-0',
+1373 silly addNameRange   hasData: true }
+1374 silly addNameRange versions [ 'handlebars',
+1374 silly addNameRange   [ '1.0.6',
+1374 silly addNameRange     '1.0.6-2',
+1374 silly addNameRange     '1.0.7',
+1374 silly addNameRange     '1.0.8',
+1374 silly addNameRange     '1.0.9',
+1374 silly addNameRange     '1.0.10',
+1374 silly addNameRange     '1.0.11',
+1374 silly addNameRange     '1.0.12',
+1374 silly addNameRange     '1.1.0',
+1374 silly addNameRange     '1.1.1',
+1374 silly addNameRange     '1.1.2',
+1374 silly addNameRange     '1.2.0',
+1374 silly addNameRange     '1.2.1',
+1374 silly addNameRange     '1.3.0',
+1374 silly addNameRange     '2.0.0-alpha.1',
+1374 silly addNameRange     '2.0.0-alpha.2',
+1374 silly addNameRange     '2.0.0-alpha.3',
+1374 silly addNameRange     '2.0.0-alpha.4',
+1374 silly addNameRange     '1.0.2-beta',
+1374 silly addNameRange     '1.0.4-beta',
+1374 silly addNameRange     '1.0.5-beta' ] ]
+1375 verbose addNamed [ 'handlebars', '2.0.0-alpha.4' ]
+1376 verbose addNamed [ '2.0.0-alpha.4', '2.0.0-alpha.4' ]
+1377 silly lockFile 01cb271f-handlebars-2-0-0-alpha-4 handlebars@2.0.0-alpha.4
+1378 verbose lock handlebars@2.0.0-alpha.4 /Users/Lowry/.npm/01cb271f-handlebars-2-0-0-alpha-4.lock
+1379 silly addNameRange number 2 { name: 'fstream-ignore',
+1379 silly addNameRange   range: '>=1.0.1-0 <1.1.0-0',
+1379 silly addNameRange   hasData: true }
+1380 silly addNameRange versions [ 'fstream-ignore',
+1380 silly addNameRange   [ '0.0.1',
+1380 silly addNameRange     '0.0.2',
+1380 silly addNameRange     '0.0.3',
+1380 silly addNameRange     '0.0.4',
+1380 silly addNameRange     '0.0.5',
+1380 silly addNameRange     '0.0.6',
+1380 silly addNameRange     '0.0.7',
+1380 silly addNameRange     '0.0.8',
+1380 silly addNameRange     '0.0.9',
+1380 silly addNameRange     '0.0.10',
+1380 silly addNameRange     '1.0.0',
+1380 silly addNameRange     '1.0.1' ] ]
+1381 verbose addNamed [ 'fstream-ignore', '1.0.1' ]
+1382 verbose addNamed [ '1.0.1', '1.0.1' ]
+1383 silly lockFile fae5cf46-fstream-ignore-1-0-1 fstream-ignore@1.0.1
+1384 verbose lock fstream-ignore@1.0.1 /Users/Lowry/.npm/fae5cf46-fstream-ignore-1-0-1.lock
+1385 silly addNameRange number 2 { name: 'bower-config',
+1385 silly addNameRange   range: '>=0.5.2-0 <0.6.0-0',
+1385 silly addNameRange   hasData: true }
+1386 silly addNameRange versions [ 'bower-config',
+1386 silly addNameRange   [ '0.1.0-rc.1',
+1386 silly addNameRange     '0.1.0-rc.2',
+1386 silly addNameRange     '0.1.0-rc.3',
+1386 silly addNameRange     '0.1.0-rc.4',
+1386 silly addNameRange     '0.1.0-rc.5',
+1386 silly addNameRange     '0.2.0-rc.1',
+1386 silly addNameRange     '0.2.0-rc.2',
+1386 silly addNameRange     '0.3.0',
+1386 silly addNameRange     '0.3.1',
+1386 silly addNameRange     '0.3.3',
+1386 silly addNameRange     '0.3.4',
+1386 silly addNameRange     '0.3.5',
+1386 silly addNameRange     '0.4.0',
+1386 silly addNameRange     '0.4.1',
+1386 silly addNameRange     '0.4.2',
+1386 silly addNameRange     '0.4.3',
+1386 silly addNameRange     '0.4.4',
+1386 silly addNameRange     '0.4.5',
+1386 silly addNameRange     '0.5.0',
+1386 silly addNameRange     '0.5.1',
+1386 silly addNameRange     '0.5.2' ] ]
+1387 verbose addNamed [ 'bower-config', '0.5.2' ]
+1388 verbose addNamed [ '0.5.2', '0.5.2' ]
+1389 silly lockFile c7a59e04-bower-config-0-5-2 bower-config@0.5.2
+1390 verbose lock bower-config@0.5.2 /Users/Lowry/.npm/c7a59e04-bower-config-0-5-2.lock
+1391 silly lockFile e2882ff3--org-cardinal-cardinal-0-4-0-tgz https://registry.npmjs.org/cardinal/-/cardinal-0.4.0.tgz
+1392 verbose lock https://registry.npmjs.org/cardinal/-/cardinal-0.4.0.tgz /Users/Lowry/.npm/e2882ff3--org-cardinal-cardinal-0-4-0-tgz.lock
+1393 silly lockFile adc2db21-ars-handlebars-2-0-0-alpha-4-tgz https://registry.npmjs.org/handlebars/-/handlebars-2.0.0-alpha.4.tgz
+1394 verbose lock https://registry.npmjs.org/handlebars/-/handlebars-2.0.0-alpha.4.tgz /Users/Lowry/.npm/adc2db21-ars-handlebars-2-0-0-alpha-4-tgz.lock
+1395 silly lockFile b9f968a9--ignore-fstream-ignore-1-0-1-tgz https://registry.npmjs.org/fstream-ignore/-/fstream-ignore-1.0.1.tgz
+1396 verbose lock https://registry.npmjs.org/fstream-ignore/-/fstream-ignore-1.0.1.tgz /Users/Lowry/.npm/b9f968a9--ignore-fstream-ignore-1-0-1-tgz.lock
+1397 verbose addRemoteTarball [ 'https://registry.npmjs.org/cardinal/-/cardinal-0.4.0.tgz',
+1397 verbose addRemoteTarball   '7d10aafb20837bde043c45e43a0c8c28cdaae45e' ]
+1398 verbose addRemoteTarball [ 'https://registry.npmjs.org/handlebars/-/handlebars-2.0.0-alpha.4.tgz',
+1398 verbose addRemoteTarball   '4c65dd13bdca070953365973ee984b965a42c3e8' ]
+1399 verbose addRemoteTarball [ 'https://registry.npmjs.org/fstream-ignore/-/fstream-ignore-1.0.1.tgz',
+1399 verbose addRemoteTarball   '153df36c4fa2cb006fb915dc71ac9d75f6a17c82' ]
+1400 silly lockFile 3c50e6b3-chmodr-0-1-0 chmodr@0.1.0
+1401 silly lockFile 3c50e6b3-chmodr-0-1-0 chmodr@0.1.0
+1402 silly lockFile c7a59e04-bower-config-0-5-2 bower-config@0.5.2
+1403 silly lockFile c7a59e04-bower-config-0-5-2 bower-config@0.5.2
+1404 silly lockFile 68851a15-bower-config-0-5-2-0-0-6-0-0 bower-config@>=0.5.2-0 <0.6.0-0
+1405 silly lockFile 68851a15-bower-config-0-5-2-0-0-6-0-0 bower-config@>=0.5.2-0 <0.6.0-0
+1406 info retry fetch attempt 1 at 11:54:02
+1407 verbose fetch to= /tmp/npm-22425-4XYNYAcA/registry.npmjs.org/cardinal/-/cardinal-0.4.0.tgz
+1408 http GET https://registry.npmjs.org/cardinal/-/cardinal-0.4.0.tgz
+1409 info retry fetch attempt 1 at 11:54:02
+1410 verbose fetch to= /tmp/npm-22425-4XYNYAcA/registry.npmjs.org/fstream-ignore/-/fstream-ignore-1.0.1.tgz
+1411 info retry fetch attempt 1 at 11:54:02
+1412 verbose fetch to= /tmp/npm-22425-4XYNYAcA/registry.npmjs.org/handlebars/-/handlebars-2.0.0-alpha.4.tgz
+1413 http GET https://registry.npmjs.org/fstream-ignore/-/fstream-ignore-1.0.1.tgz
+1414 http GET https://registry.npmjs.org/handlebars/-/handlebars-2.0.0-alpha.4.tgz
+1415 silly registry.get cb [ 304, undefined ]
+1416 verbose etag https://registry.npmjs.org/graceful-fs from cache
+1417 silly lockFile 197bacf4-tar-fs-0-5-2 tar-fs@0.5.2
+1418 silly lockFile 197bacf4-tar-fs-0-5-2 tar-fs@0.5.2
+1419 silly registry.get cb [ 304, undefined ]
+1420 verbose etag https://registry.npmjs.org/fstream from cache
+1421 silly registry.get cb [ 304, undefined ]
+1422 verbose etag https://registry.npmjs.org/glob from cache
+1423 verbose about to build /usr/lib/node_modules/bower
+1424 verbose lib/node_modules/bower unbuild
+1425 info preuninstall bower@1.3.12
+1426 silly registry.get cb [ 304, undefined ]
+1427 verbose etag https://registry.npmjs.org/chalk from cache
+1428 error fetch failed https://registry.npmjs.org/cardinal/-/cardinal-0.4.0.tgz
+1429 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+1430 error fetch failed https://registry.npmjs.org/handlebars/-/handlebars-2.0.0-alpha.4.tgz
+1431 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+1432 error fetch failed https://registry.npmjs.org/fstream-ignore/-/fstream-ignore-1.0.1.tgz
+1433 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+1434 info uninstall bower@1.3.12
+1435 verbose true,/usr/lib/node_modules,/usr/lib/node_modules unbuild bower@1.3.12
+1436 verbose /usr/bin,[object Object] binRoot
+1437 verbose gentlyRm verifying that /usr/lib/node_modules/bower is managed by npm
+1438 silly cacheAndTest /usr/lib/node_modules/bower is inside /usr/lib/node_modules
+1439 silly gentlyRm /usr/lib/node_modules/bower is managed by npm
+1440 silly gentlyRm /usr/bin/bower is not under /usr/lib/node_modules/bower
+1441 silly gentlyRm checking to see if /usr/bin/bower is a link
+1442 silly addNameRange number 2 { name: 'graceful-fs',
+1442 silly addNameRange   range: '>=3.0.1-0 <3.1.0-0',
+1442 silly addNameRange   hasData: true }
+1443 silly addNameRange versions [ 'graceful-fs',
+1443 silly addNameRange   [ '1.0.0',
+1443 silly addNameRange     '1.0.1',
+1443 silly addNameRange     '1.0.2',
+1443 silly addNameRange     '1.1.0',
+1443 silly addNameRange     '1.1.1',
+1443 silly addNameRange     '1.1.2',
+1443 silly addNameRange     '1.1.3',
+1443 silly addNameRange     '1.1.4',
+1443 silly addNameRange     '1.1.5',
+1443 silly addNameRange     '1.1.6',
+1443 silly addNameRange     '1.1.7',
+1443 silly addNameRange     '1.1.8',
+1443 silly addNameRange     '1.1.9',
+1443 silly addNameRange     '1.1.10',
+1443 silly addNameRange     '1.1.11',
+1443 silly addNameRange     '1.1.12',
+1443 silly addNameRange     '1.1.13',
+1443 silly addNameRange     '1.1.14',
+1443 silly addNameRange     '1.2.0',
+1443 silly addNameRange     '1.2.1',
+1443 silly addNameRange     '1.2.2',
+1443 silly addNameRange     '1.2.3',
+1443 silly addNameRange     '2.0.0',
+1443 silly addNameRange     '2.0.1',
+1443 silly addNameRange     '2.0.2',
+1443 silly addNameRange     '2.0.3',
+1443 silly addNameRange     '3.0.0',
+1443 silly addNameRange     '3.0.1',
+1443 silly addNameRange     '3.0.2',
+1443 silly addNameRange     '3.0.3',
+1443 silly addNameRange     '3.0.4' ] ]
+1444 verbose addNamed [ 'graceful-fs', '3.0.4' ]
+1445 verbose addNamed [ '3.0.4', '3.0.4' ]
+1446 silly lockFile fc361d82-graceful-fs-3-0-4 graceful-fs@3.0.4
+1447 verbose lock graceful-fs@3.0.4 /Users/Lowry/.npm/fc361d82-graceful-fs-3-0-4.lock
+1448 info postuninstall bower@1.3.12
+1449 silly addNameRange number 2 { name: 'fstream', range: '>=1.0.2-0 <1.1.0-0', hasData: true }
+1450 silly addNameRange versions [ 'fstream',
+1450 silly addNameRange   [ '0.0.0',
+1450 silly addNameRange     '0.0.1',
+1450 silly addNameRange     '0.1.0',
+1450 silly addNameRange     '0.1.1',
+1450 silly addNameRange     '0.1.2',
+1450 silly addNameRange     '0.1.3',
+1450 silly addNameRange     '0.1.5',
+1450 silly addNameRange     '0.1.6',
+1450 silly addNameRange     '0.1.7',
+1450 silly addNameRange     '0.1.8',
+1450 silly addNameRange     '0.1.9',
+1450 silly addNameRange     '0.1.10',
+1450 silly addNameRange     '0.1.11',
+1450 silly addNameRange     '0.1.12',
+1450 silly addNameRange     '0.1.13',
+1450 silly addNameRange     '0.1.14',
+1450 silly addNameRange     '0.1.15',
+1450 silly addNameRange     '0.1.16',
+1450 silly addNameRange     '0.1.17',
+1450 silly addNameRange     '0.1.18',
+1450 silly addNameRange     '0.1.19',
+1450 silly addNameRange     '0.1.20',
+1450 silly addNameRange     '0.1.21',
+1450 silly addNameRange     '0.1.22',
+1450 silly addNameRange     '0.1.23',
+1450 silly addNameRange     '0.1.24',
+1450 silly addNameRange     '0.1.25',
+1450 silly addNameRange     '0.1.26',
+1450 silly addNameRange     '0.1.27',
+1450 silly addNameRange     '0.1.28',
+1450 silly addNameRange     '0.1.29',
+1450 silly addNameRange     '0.1.30',
+1450 silly addNameRange     '1.0.0',
+1450 silly addNameRange     '1.0.1',
+1450 silly addNameRange     '0.1.31',
+1450 silly addNameRange     '1.0.2' ] ]
+1451 verbose addNamed [ 'fstream', '1.0.2' ]
+1452 verbose addNamed [ '1.0.2', '1.0.2' ]
+1453 silly lockFile 03ab8b3d-fstream-1-0-2 fstream@1.0.2
+1454 verbose lock fstream@1.0.2 /Users/Lowry/.npm/03ab8b3d-fstream-1-0-2.lock
+1455 silly addNameRange number 2 { name: 'glob', range: '>=4.0.2-0 <4.1.0-0', hasData: true }
+1456 silly addNameRange versions [ 'glob',
+1456 silly addNameRange   [ '1.1.0',
+1456 silly addNameRange     '2.0.9',
+1456 silly addNameRange     '2.0.8',
+1456 silly addNameRange     '2.0.7',
+1456 silly addNameRange     '2.1.0',
+1456 silly addNameRange     '3.0.0',
+1456 silly addNameRange     '3.0.1',
+1456 silly addNameRange     '3.1.0',
+1456 silly addNameRange     '3.1.1',
+1456 silly addNameRange     '3.1.2',
+1456 silly addNameRange     '3.1.3',
+1456 silly addNameRange     '3.1.4',
+1456 silly addNameRange     '3.1.5',
+1456 silly addNameRange     '3.1.6',
+1456 silly addNameRange     '3.1.7',
+1456 silly addNameRange     '3.1.9',
+1456 silly addNameRange     '3.1.10',
+1456 silly addNameRange     '3.1.11',
+1456 silly addNameRange     '3.1.12',
+1456 silly addNameRange     '3.1.13',
+1456 silly addNameRange     '3.1.14',
+1456 silly addNameRange     '3.1.15',
+1456 silly addNameRange     '3.1.16',
+1456 silly addNameRange     '3.1.17',
+1456 silly addNameRange     '3.1.18',
+1456 silly addNameRange     '3.1.19',
+1456 silly addNameRange     '3.1.20',
+1456 silly addNameRange     '3.1.21',
+1456 silly addNameRange     '3.2.0',
+1456 silly addNameRange     '3.2.1',
+1456 silly addNameRange     '3.2.3',
+1456 silly addNameRange     '3.2.4',
+1456 silly addNameRange     '3.2.5',
+1456 silly addNameRange     '3.2.6',
+1456 silly addNameRange     '3.2.7',
+1456 silly addNameRange     '3.2.8',
+1456 silly addNameRange     '3.2.9',
+1456 silly addNameRange     '3.2.10',
+1456 silly addNameRange     '3.2.11',
+1456 silly addNameRange     '4.0.0',
+1456 silly addNameRange     '4.0.1',
+1456 silly addNameRange     '4.0.2',
+1456 silly addNameRange     '4.0.3',
+1456 silly addNameRange     '4.0.4',
+1456 silly addNameRange     '4.0.5',
+1456 silly addNameRange     '4.0.6' ] ]
+1457 verbose addNamed [ 'glob', '4.0.6' ]
+1458 verbose addNamed [ '4.0.6', '4.0.6' ]
+1459 silly lockFile 82561750-glob-4-0-6 glob@4.0.6
+1460 verbose lock glob@4.0.6 /Users/Lowry/.npm/82561750-glob-4-0-6.lock
+1461 verbose gentlyRm vacuuming /usr/lib/node_modules/bower
+1462 silly gentlyRm purging /usr/lib/node_modules/bower
+1463 silly lockFile c3c96367--npmjs-org-chalk-chalk-0-5-0-tgz https://registry.npmjs.org/chalk/-/chalk-0.5.0.tgz
+1464 verbose lock https://registry.npmjs.org/chalk/-/chalk-0.5.0.tgz /Users/Lowry/.npm/c3c96367--npmjs-org-chalk-chalk-0-5-0-tgz.lock
+1465 verbose addRemoteTarball [ 'https://registry.npmjs.org/chalk/-/chalk-0.5.0.tgz',
+1465 verbose addRemoteTarball   '375dfccbc21c0a60a8b61bc5b78f3dc2a55c212f' ]
+1466 info retry fetch attempt 1 at 11:55:19
+1467 verbose fetch to= /tmp/npm-22425-4XYNYAcA/registry.npmjs.org/chalk/-/chalk-0.5.0.tgz
+1468 http GET https://registry.npmjs.org/chalk/-/chalk-0.5.0.tgz
+1469 silly gentlyRm quitting because other entries in /usr/lib/node_modules
+1470 error network connect ETIMEDOUT
+1470 error network This is most likely not a problem with npm itself
+1470 error network and is related to network connectivity.
+1470 error network In most cases you are behind a proxy or have bad network settings.
+1470 error network
+1470 error network If you are behind a proxy, please make sure that the
+1470 error network 'proxy' config is set properly.  See: 'npm help config'
+1471 error System Darwin 14.0.0
+1472 error command "node" "/usr/local/bin/npm" "install" "-g" "bower"
+1473 error cwd /Users/Lowry/REST/rssreader/RssReader/client
+1474 error node -v v0.10.26
+1475 error npm -v 1.5.0-alpha-1
+1476 error syscall connect
+1477 error code ETIMEDOUT
+1478 error errno ETIMEDOUT
+1479 verbose exit [ 1, true ]

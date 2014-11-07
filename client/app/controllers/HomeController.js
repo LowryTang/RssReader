@@ -1,10 +1,13 @@
 app.controller('HomeController', function($scope, NewsService) {
-  NewsService.getNewsBySiteId("53df5030dba4433e2afc5464", function(news) {
-    $scope.news = news;
-    console.log(news.length);
-  });
+  'use strict';
 
-  $scope.init = function (arguments) {
-  	
+  NewsService.getAllSites().then(function (data) {
+    $scope.sites = data.data;
+  })
+  $scope.select = function (site) {
+    $scope.news = [];  
+    NewsService.getNewsBySiteId(site._id).then(function (news) {
+      $scope.news=$scope.news.concat(news);
+    })
   }
 });

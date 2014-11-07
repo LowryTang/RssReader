@@ -1,65 +1,40 @@
-// var mongodb = require('./db.js');
+var mongoose = require('mongoose');
+var Schema = mongoose.Schema;
 
-// function User(user) {
-//     this.name = user.name;
-//     this.password = user.password;
-//     this.email = user.email;
-// }
+var userSchema = new Schema({
+  username: String,
+  password: String,
+  email: String,
+  favorSite: Array
+});
 
-// module.exports = User;
+var User = mongoose.model('User', userSchema);
 
-// User.prototype.save = function (callback) {
-//     var user = {
-//         name: this.name,
-//         password: this.password,
-//         email: this.email
-//     };
+var UserDAO = function() {};
 
-//     mongodb.open(function (err, db) {
-//         if (err) {
-//             mongodb.close();
-//             return callback(err);
-//         }
+module.exports = new UserDAO();
 
-//         db.collection('users', function (err, collection) {
-//             if (err) {
-//                 mongodb.close();
-//                 return callback(err);
-//             }
-//             collection.insert(user, {
-//                 safe: true
-//             }, function (err, user) {
-//                 mongodb.close();
-//                 if (err) {
-//                     return callback(err);
-//                 }
-//                 callback(null, user);
-//             });
-//         })
-//     });
-// }
+UserDAO.prototype.create = function(obj, callback) {
+	var user = new User();
+	user.username = obj.username;
+	user.password = obj.password;
+	user.email = obj.email;
+	user.favorSite = [];
+	user.save(callback);
+}
 
-// User.get = function (name, callback) {
-//     mongodb.open(function (err, db) {
-//         if (err) {
-//             mongodb.close();
-//             return callback(err);
-//         }
+UserDAO.prototype.getByName = function(username, callback) {
+	User.find({username: username}, {__v: 0}, callback);
+}
 
-//         db.collection('users', function (err, collection) {
-//             if (err) {
-//                 mongodb.close();
-//                 return callback(err);
-//             }
-//             collection.findOne({
-//                 name: name
-//             }, function (err, user) {
-//                 mongodb.close();
-//                 if (err) {
-//                     return callback(err);
-//                 }
-//                 callback(null, user);
-//             });
-//         })
-//     });
-// }
+UserDAO.prototype.getById = function(id, callback) {
+	User.findOne({_id: id}, {__v: 0}, callback);
+}
+
+UserDAO.prototype.getAll = function(callback) {
+	User.find(null, {__v: 0, favorSite: 0}, callback);
+}
+
+UserDAO.prototype.getByNameAndPassword = function(obj, callback) {
+	User.findOne({username: obj.username, password: obj.password}, {__v: 0}, callback);
+}

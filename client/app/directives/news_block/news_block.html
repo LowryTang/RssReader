@@ -1,7 +1,17 @@
 <div class="news-container">
   <div class="news-block" ng-repeat="new in news">
     <div class="title">{{new.title}}</div>
-    <div class="description">{{new.description}}</div>
+    <div class="description" ng-bind-html="new.description"></div>
     <div class="pub-date">{{new.pubDate}}</div>
+
   </div>
 </div>
+
+<img src='http://c2.hoopchina.com.cn/uploads/star/event/images/141023/bmiddle-f641972b83187612171424bb6d1cd843884eb3e0.jpg'></img>
+<img src="http://localhost:8000/image?url=http://c2.hoopchina.com.cn/uploads/star/event/images/141023/bmiddle-f641972b83187612171424bb6d1cd843884eb3e0.jpg">
+
+<script type="text/javascript">
+  var a = document.getElementsByTagName('img')[0];
+  a.onload=function (){alert('onload')};
+  a.onchange = function(){alert('onchange')};
+</script>

@@ -1,0 +1,5 @@
+<div class="news-card">
+  <div class="text-center"><a class="title h3 text-center" ng-href='{{card.link}}' target="_blank">{{card.title}}</a></div>
+  <div class="description" ng-bind-html="card.description"></div>
+  <div class="pub-date">{{card.pubDate | date: 'short'}}</div>
+</div>

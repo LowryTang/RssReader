@@ -1,0 +1,17 @@
+<div ng-controller='HomeController'>
+  <nav class='dock' ng-class="{display: open}">
+    <div class='dock-wrap'>
+      <ul class="nav nav-pills nav-stacked">
+        <li ng-repeat="site in sites">
+          <a href="" ng-click="select(site)">{{site.title}}</a>
+        </li>
+      </ul>
+    </div>
+    <div class="dock-bar" ng-click="open=!open" >
+      <div class="wrap"><span class="glyphicon glyphicon-chevron-right"></span></div>
+    </div>
+  </nav>
+  <div>
+    <div deckgrid source="news" cardTemplate="app/views/card.html" class="deckgrid"></div>
+  </div>
+</div>

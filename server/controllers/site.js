@@ -1,5 +1,6 @@
-var Site = require('../models/mongoose/site.js');
+var Site = require('../models/site.js');
 var siteclient = require('../services/siteclient.js');
+var scraper = require('../services/scraper.js');
 
 module.exports.add = function (req, res, next) {
   var url = req.body.url
@@ -36,4 +37,19 @@ module.exports.getAll = function (req, res, next) {
     if (err) return next(err);
     res.send(sites);
   })
+}
+
+module.exports.startAutoRequestNews = function (req, res, next) {
+  scraper.start(function (err, data) {
+    if(err) throw err;
+    res.send(data);
+  });
+  
+}
+
+module.exports.stopAutoRequestNews = function (req, res, next) {
+  scraper.stop(function (err, data) {
+    res.send(data);
+  });
+  
 }
